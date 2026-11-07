@@ -3956,6 +3956,7 @@ a.inline-link {
   position: absolute;
   inset: 0 var(--_card-inset);
   border: 1px solid var(--stroke-elements);
+  border-color: color-mix(in srgb, var(--t-medium) 45%, transparent);
   border-radius: var(--_card-radius);
   background-color: var(--base);
   transition: border-color var(--_animspeed-medium) var(--_animbezier),
@@ -3966,8 +3967,8 @@ a.inline-link {
   z-index: 1;
 }
 .project-card .project-card__media {
-  margin: 1.2rem 1.2rem 0;
-  border-radius: calc(var(--_card-radius) - 1rem);
+  margin: 1.6rem 1.6rem 0;
+  border-radius: calc(var(--_card-radius) - 1.2rem);
 }
 .project-card__title {
   margin: 0;
@@ -3977,7 +3978,7 @@ a.inline-link {
   letter-spacing: -0.01em;
 }
 .no-touch .project-card:hover::before {
-  border-color: var(--t-medium);
+  border-color: var(--t-bright);
 }
 @media only screen and (min-width: 768px) {
   :root {
