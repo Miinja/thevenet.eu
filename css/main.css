@@ -3956,7 +3956,7 @@ a.inline-link {
   position: absolute;
   inset: 0 var(--_card-inset);
   border-radius: var(--_card-radius);
-  background-color: color-mix(in srgb, var(--t-medium) 6%, transparent);
+  background-color: color-mix(in srgb, var(--t-medium) 3%, transparent);
   transition: background-color var(--_animspeed-medium) var(--_animbezier);
 }
 .project-card > * {
@@ -3975,7 +3975,7 @@ a.inline-link {
   letter-spacing: -0.01em;
 }
 .no-touch .project-card:hover::before {
-  background-color: color-mix(in srgb, var(--t-medium) 11%, transparent);
+  background-color: color-mix(in srgb, var(--t-medium) 6%, transparent);
 }
 @media only screen and (min-width: 768px) {
   :root {
