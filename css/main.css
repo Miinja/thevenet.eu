@@ -3868,3 +3868,147 @@ button:focus-visible {
 /* ------------------------------------------------*/
 /* SEO / Accessibilité / Sécurité - ajouts End     */
 /* ------------------------------------------------*/
+
+/* ------------------------------------------------*/
+/* Typographie & cards - refonte Start             */
+/* ------------------------------------------------*/
+/* Urbanist auto-hébergée (SIL OFL 1.1, voir fonts/Urbanist/OFL.txt) — compatible CSP font-src 'self' */
+@font-face {
+  font-family: "Urbanist";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("../fonts/Urbanist/Urbanist-Variable-latin.woff2") format("woff2");
+}
+
+:root {
+  --_font-default: "Urbanist", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --_font-accent: "Urbanist", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --_card-radius: 2.4rem;
+  --_card-inset: 1rem;
+}
+
+body {
+  font-size: 1.7rem;
+  line-height: 1.5;
+  font-kerning: normal;
+}
+
+/* Titres : échelle fluide, interlignage serré, léger resserrement des grandes tailles */
+h1 {
+  font-size: clamp(5.2rem, 3.4rem + 6vw, 13rem);
+  line-height: 1.02;
+  letter-spacing: -0.025em;
+}
+h2 {
+  font-size: clamp(4.4rem, 2.8rem + 5vw, 11rem);
+  line-height: 1.02;
+  letter-spacing: -0.025em;
+}
+h3 {
+  font-size: clamp(3.2rem, 2.4rem + 2.4vw, 5.6rem);
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+}
+h4 {
+  font-size: clamp(2.4rem, 2rem + 0.9vw, 3.2rem);
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+h5 {
+  font-size: clamp(2rem, 1.8rem + 0.4vw, 2.4rem);
+  line-height: 1.3;
+}
+h6 {
+  font-size: clamp(1.8rem, 1.6rem + 0.4vw, 2.2rem);
+  line-height: 1.5;
+}
+
+/* Texte courant : lisible sans devenir énorme sur grand écran */
+p {
+  font-size: clamp(1.7rem, 1.5rem + 0.35vw, 2.1rem);
+}
+.text-relaxed {
+  line-height: 1.65;
+}
+.text-small {
+  font-size: clamp(1.5rem, 1.4rem + 0.2vw, 1.7rem);
+  line-height: 1.55;
+}
+a.inline-link {
+  font-size: clamp(1.5rem, 1.4rem + 0.2vw, 1.7rem);
+}
+.section-kicker {
+  font-size: clamp(1.6rem, 1.5rem + 0.2vw, 1.8rem);
+  letter-spacing: 0.02em;
+}
+.marquee-card__text {
+  font-size: clamp(4rem, 2.6rem + 4.4vw, 8rem);
+  letter-spacing: -0.02em;
+}
+.timeline__date {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Cards projets : cadre arrondi autour de l'image et du titre */
+.project-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 var(--_card-inset);
+  border: 1px solid var(--stroke-elements);
+  border-radius: var(--_card-radius);
+  background-color: var(--base);
+  transition: border-color var(--_animspeed-medium) var(--_animbezier),
+    transform var(--_animspeed-medium) var(--_animbezier);
+}
+.project-card > * {
+  position: relative;
+  z-index: 1;
+}
+.project-card .project-card__media {
+  margin: 1rem 1rem 0;
+  border-radius: calc(var(--_card-radius) - 1rem);
+}
+.project-card__title {
+  margin: 0;
+  padding: 1.6rem 2rem 2rem;
+  font-size: clamp(1.8rem, 1.6rem + 0.4vw, 2.2rem);
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+.no-touch .project-card:hover::before {
+  border-color: var(--t-medium);
+}
+@media only screen and (min-width: 768px) {
+  :root {
+    --_card-inset: 1.5rem;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  :root {
+    --_card-inset: 2.5rem;
+    --_card-radius: 2.8rem;
+  }
+}
+
+/* Logos d'entreprise et bannière (Ordiservices) */
+.timeline__company-media {
+  border-radius: var(--_card-radius);
+  overflow: hidden;
+}
+.timeline__company-media.timeline__company-media--banner {
+  float: none;
+  width: min(100%, 72rem);
+  margin: 2.4rem 0 2.4rem;
+  padding: 0;
+  border: 1px solid var(--stroke-elements);
+  background-color: transparent;
+  transform: none;
+}
+.timeline__company-media--banner img {
+  aspect-ratio: 3 / 1;
+  object-fit: cover;
+}
+/* ------------------------------------------------*/
+/* Typographie & cards - refonte End               */
+/* ------------------------------------------------*/

@@ -46,13 +46,14 @@
     <!-- Favicon & Icons End -->
 
     <!-- Preloads : ressources critiques du premier affichage -->
+    <link rel="preload" href="fonts/Urbanist/Urbanist-Variable-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="fonts/Phosphor/Phosphor.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="img/ambiance/background.webp" as="image" fetchpriority="high">
 
     <!-- Styles Start (incrémenter ?v= après une modification du fichier) -->
     <link rel="stylesheet" type="text/css" href="css/loaders/loader.css?v=20261107">
     <link rel="stylesheet" type="text/css" href="css/plugins.css?v=20261107">
-    <link rel="stylesheet" type="text/css" href="css/main.css?v=20261107">
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=20261107b">
     <!-- Styles End -->
 
     <!-- Scripts : téléchargés en parallèle (defer), exécutés dans l'ordre après l'analyse du HTML -->
@@ -756,6 +757,9 @@
                               <p class="timeline__meta text-small reveal-up">Ordiservices (Dijon)</p>
                             </div>
                             <div class="timeline__internship-flow text-relaxed reveal-up">
+                              <div class="timeline__company-media timeline__company-media--banner">
+                                <img src="img/portfolio/Ordiservices.webp" width="1200" height="400" alt="Bannière Ordiservices, expert informatique et dépannage à Dijon">
+                              </div>
                               <p>Alternance en administration systèmes &amp; réseaux chez Ordiservices. Je déploie et exploite la plateforme de virtualisation — hôtes Proxmox VE et machines virtuelles Debian 13 — ainsi que des services conteneurisés gérés avec Docker et Portainer, des partages de fichiers Samba, un accès WebDAV et un reverse proxy Caddy.</p>
                               <p>J'ai également conçu une refonte du réseau segmentée en VLAN, et j'automatise les tâches d'administration avec des scripts PowerShell et Bash planifiés via cron et systemd.</p>
                             </div>

@@ -46,13 +46,14 @@
     <!-- Favicon & Icons End -->
 
     <!-- Preloads : ressources critiques du premier affichage -->
+    <link rel="preload" href="fonts/Urbanist/Urbanist-Variable-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="fonts/Phosphor/Phosphor.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="img/ambiance/background.webp" as="image" fetchpriority="high">
 
     <!-- Styles Start (incrémenter ?v= après une modification du fichier) -->
     <link rel="stylesheet" type="text/css" href="css/loaders/loader.css?v=20261107">
     <link rel="stylesheet" type="text/css" href="css/plugins.css?v=20261107">
-    <link rel="stylesheet" type="text/css" href="css/main.css?v=20261107">
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=20261107b">
     <!-- Styles End -->
 
     <!-- Scripts : téléchargés en parallèle (defer), exécutés dans l'ordre après l'analyse du HTML -->
@@ -756,6 +757,9 @@
                               <p class="timeline__meta text-small reveal-up">Ordiservices (Dijon)</p>
                             </div>
                             <div class="timeline__internship-flow text-relaxed reveal-up">
+                              <div class="timeline__company-media timeline__company-media--banner">
+                                <img src="img/portfolio/Ordiservices.webp" width="1200" height="400" alt="Ordiservices banner, IT expert and repair shop in Dijon">
+                              </div>
                               <p>Systems &amp; network administrator apprentice at Ordiservices. I deploy and run the virtualisation platform — Proxmox VE hosts and Debian 13 virtual machines — along with containerised services managed with Docker and Portainer, Samba file shares, WebDAV access and a Caddy reverse proxy.</p>
                               <p>I also designed a redesign of the network segmented into VLANs, and I automate administration tasks with PowerShell and Bash scripts scheduled through cron and systemd.</p>
                             </div>
