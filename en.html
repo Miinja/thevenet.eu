@@ -50,16 +50,16 @@
     <link rel="preload" href="img/ambiance/background.webp" as="image" fetchpriority="high">
 
     <!-- Styles Start (incrémenter ?v= après une modification du fichier) -->
-    <link rel="stylesheet" type="text/css" href="css/loaders/loader.css?v=20260920">
+    <link rel="stylesheet" type="text/css" href="css/loaders/loader.css?v=20261107">
     <link rel="stylesheet" type="text/css" href="css/plugins.css?v=20261107">
     <link rel="stylesheet" type="text/css" href="css/main.css?v=20261107">
     <!-- Styles End -->
 
     <!-- Scripts : téléchargés en parallèle (defer), exécutés dans l'ordre après l'analyse du HTML -->
     <script src="js/libs.min.js?v=20261107" defer></script>
-    <script src="js/gallery-init.js?v=20260920" defer></script>
-    <script src="js/app.js?v=20260920" defer></script>
-    <script src="js/contact.js?v=20260920" defer></script>
+    <script src="js/gallery-init.js?v=20261107" defer></script>
+    <script src="js/app.js?v=20261107" defer></script>
+    <script src="js/contact.js?v=20261107" defer></script>
 
     <!-- Sans JavaScript : ne pas bloquer le contenu derrière le préchargeur -->
     <noscript><style>#loader{display:none !important}</style></noscript>
@@ -353,8 +353,8 @@
     <!-- Logo Start -->
     <div class="site-brand page-ready-fade">
       <a href="#home" class="site-brand__link">
-        <img class="site-brand__mark" src="img/favicon/favicon.ico" alt="Thevenet_">
-        <span class="site-brand__name">Thevenet_</span>
+        <img class="site-brand__mark" src="img/favicon/Logo-blanc.png" alt="Thevenet_">
+        <span class="site-brand__name">Thevenet</span>
       </a>
     </div>
     <!-- Logo End -->
@@ -421,12 +421,11 @@
                 <div class="page-section__body">
                   <div class="section-block section-block--title-copy">
                     <div class="section-intro">
-                      <h2 class="split-reveal reveal-up">Selected<br>projects</h2>
-                      <p class="section-intro__text text-relaxed reveal-up">
-                        Building solutions that empower businesses through clean code and strong security. Projects that taught me, challenged me, and created impact. 
-                        <br><br>
-                        Click on any project to learn more.
-                      </p>
+                      <h2 class="split-reveal reveal-up">Efficient Code,<br> Secured Systems</h2>
+                      <div class="section-intro__text text-relaxed text-stack text-stack--intro reveal-up">
+                        <p>Building solutions that empower businesses through clean code and strong security. Projects that taught me, challenged me, and created impact.</p>
+                        <p>Click on any project to learn more.</p>
+                      </div>
                     </div>
                   </div>
                   <div class="section-block section-block--grid">
@@ -436,110 +435,116 @@
                           <a href="img/portfolio/Ofishelper.webp" data-image="img/portfolio/Ofishelper.webp" class="project-card__media" data-size="1400x1050">
                             <img src="img/portfolio/Ofishelper.webp" class="project-card__image" width="1400" height="1050" decoding="async" alt="Illustration of a small cardboard robot sorting papers, mascot of the OfisHelper productivity app">
                           </a>
-                          <h3 class="project-card__title">OfisHelper - Enterprise Productivity Tool</h3>
                           <figcaption class="project-card__details">
                             <h5>OfisHelper
                               <small>Full Stack Developer</small>
                             </h5>
-                            <p class="text-small">
-                              Designed and built a productivity web application using the GPT API to assist with writing, summarizing, and sending emails in a corporate environment. Built seamless payment integration and robust database architecture to deliver a fully autonomous platform that boosts efficiency and reduces manual workload.
-                            </p>
-                            <br>
-                            <p class="text-small">Tech Stack: PHP, MySQL, JavaScript, HTML5, CSS3</p>
+                            <div class="project-card__copy">
+                              <p class="text-small">
+                                Designed and built a productivity web application using the GPT API to assist with writing, summarizing, and sending emails in a corporate environment. Built seamless payment integration and robust database architecture to deliver a fully autonomous platform that boosts efficiency and reduces manual workload.
+                              </p>
+                              <p class="project-card__meta text-small">Tech Stack: PHP, MySQL, JavaScript, HTML5, CSS3</p>
+                            </div>
                           </figcaption>
+                          <h3 class="project-card__title">OfisHelper - Enterprise Productivity Tool</h3>
                         </figure>
                         <figure class="col-12 col-md-6 project-card grid-item reveal-grid-2">
                           <a href="img/portfolio/Guinbeargang.webp" data-image="img/portfolio/Guinbeargang.webp" class="project-card__media" data-size="1100x1400">
                             <img src="img/portfolio/Guinbeargang.webp" class="project-card__image" width="1100" height="1400" decoding="async" alt="GuinBearGang logo on a colourful blurred pastel background">
                           </a>
-                          <h3 class="project-card__title">GuinBearGang - NFT Project</h3>
                           <figcaption class="project-card__details">
                             <h5>GuinBearGang
                               <small>Web3 Developer &amp; Game Designer</small>
                             </h5>
-                            <p class="text-small">
-                              Developed a minting website and an interactive Discord bot to simulate a fictional economy. Users could purchase lottery tickets using in-game currency and win royalties from an NFT collection on the Solana blockchain.
-                            </p>
-                            <br>
-                            <p class="text-small">Tech Stack: JavaScript (Discord.js, Web3.js), JSON, HTML5, CSS3</p>
+                            <div class="project-card__copy">
+                              <p class="text-small">
+                                Developed a minting website and an interactive Discord bot to simulate a fictional economy. Users could purchase lottery tickets using in-game currency and win royalties from an NFT collection on the Solana blockchain.
+                              </p>
+                              <p class="project-card__meta text-small">Tech Stack: JavaScript (Discord.js, Web3.js), JSON, HTML5, CSS3</p>
+                            </div>
                           </figcaption>
+                          <h3 class="project-card__title">GuinBearGang - NFT Project</h3>
                         </figure>
 
                         <figure class="col-12 col-md-6 project-card grid-item reveal-grid-2">
-                          <a href="img/portfolio/Smokloud.webp" data-image="img/portfolio/Smokloud.webp" class="project-card__media" data-size="1536x1024">
-                            <img src="img/portfolio/Smokloud.webp" class="project-card__image" width="1536" height="1024" decoding="async" alt="SmokLOUD logo">
+                          <a href="img/portfolio/Smokloud.png" data-image="img/portfolio/Smokloud.png" class="project-card__media" data-size="1536x1024">
+                            <img src="img/portfolio/Smokloud.png" class="project-card__image" width="1536" height="1024" decoding="async" alt="SmokLOUD logo">
                           </a>
-                          <h3 class="project-card__title">Smokloud - E-commerce Website &amp; Infrastructure</h3>
                           <figcaption class="project-card__details">
                             <h5>Smokloud
                               <small>Network Administrator &amp; Web Developer</small>
                             </h5>
-                            <p class="text-small">
-                              Developed a secure and regulation-compliant e-commerce site for a vaping business. Implemented a DMZ-based Wi-Fi infrastructure, ensuring compliance with EU cybersecurity laws, GDPR, and FIVAPE industry standards — enabling the business to operate safely and legally online.
-                              <br><br>
-                              <a href="https://Smokloud.fr" target="_blank" rel="noopener noreferrer">🌐 View Website (smokloud.fr)</a>
-                            </p>
-                            <br>
-                            <p class="text-small">Tech Stack: PFsense, Omada, Wireshark, PHP, HTML, CSS</p>
+                            <div class="project-card__copy">
+                              <p class="text-small">
+                                Developed a secure and regulation-compliant e-commerce site for a vaping business. Implemented a DMZ-based Wi-Fi infrastructure, ensuring compliance with EU cybersecurity laws, GDPR, and FIVAPE industry standards — enabling the business to operate safely and legally online.
+                              </p>
+                              <p class="text-small">
+                                <a class="project-card__resource" href="https://Smokloud.fr" target="_blank" rel="noopener noreferrer">🌐 View Website (smokloud.fr)</a>
+                              </p>
+                              <p class="project-card__meta text-small">Tech Stack: PFsense, Omada, Wireshark, PHP, HTML, CSS</p>
+                            </div>
                           </figcaption>
+                          <h3 class="project-card__title">Smokloud - E-commerce Website &amp; Infrastructure</h3>
                         </figure>
 
                         <figure class="col-12 col-md-6 project-card grid-item reveal-grid-2">
-                          <a href="img/portfolio/apa63.webp" data-image="img/portfolio/apa63.webp" class="project-card__media" data-size="1536x1024">
-                            <img src="img/portfolio/apa63.webp" class="project-card__image" width="1536" height="1024" decoding="async" alt="APA 63 logo, a blue paw print">
+                          <a href="img/portfolio/apa63.png" data-image="img/portfolio/apa63.png" class="project-card__media" data-size="1536x1024">
+                            <img src="img/portfolio/apa63.png" class="project-card__image" width="1536" height="1024" decoding="async" alt="APA 63 logo, a blue paw print">
                           </a>
-                          <h3 class="project-card__title">APA 63 – Infrastructure &amp; Security</h3>
                           <figcaption class="project-card__details">
                             <h5>APA 63 – Infrastructure Modernization
                               <small>Systems &amp; Network Administrator</small>
                             </h5>
-                            <p class="text-small">
-                              Modernization and security enhancement of the organization's IT infrastructure. 
-                              Deployed a Home Assistant server under Docker to centralize building automation and improve operational monitoring.
-                            </p>
-                            <br>
-                            <p class="text-small">
-                              Upgraded the workstation fleet to Windows 11 with BitLocker encryption, implemented a centralized backup strategy using Duplicati connected to a QNAP NAS, reorganized the network rack, and restored the video surveillance system.
-                            </p>
-                            <br>
-                            <p class="text-small">Tech Stack: Docker, Home Assistant, Windows 11, BitLocker, Duplicati, QNAP NAS</p>
+                            <div class="project-card__copy">
+                              <p class="text-small">
+                                Modernization and security enhancement of the organization's IT infrastructure. Deployed a Home Assistant server under Docker to centralize building automation and improve operational monitoring.
+                              </p>
+                              <p class="text-small">
+                                Upgraded the workstation fleet to Windows 11 with BitLocker encryption, implemented a centralized backup strategy using Duplicati connected to a QNAP NAS, reorganized the network rack, and restored the video surveillance system.
+                              </p>
+                              <p class="project-card__meta text-small">Tech Stack: Docker, Home Assistant, Windows 11, BitLocker, Duplicati, QNAP NAS</p>
+                            </div>
                           </figcaption>
+                          <h3 class="project-card__title">APA 63 – Infrastructure &amp; Security</h3>
                         </figure>
 
                         <figure class="col-12 col-md-6 project-card grid-item reveal-grid-2">
-                          <a href="img/portfolio/Kubernetes.webp" data-image="img/portfolio/Kubernetes.webp" class="project-card__media" data-size="1536x1024">
-                            <img src="img/portfolio/Kubernetes.webp" class="project-card__image" width="1536" height="1024" decoding="async" alt="Isometric illustration of server nodes linked by glowing lines, with the Kubernetes logo">
+                          <a href="img/portfolio/Kubernetes.png" data-image="img/portfolio/Kubernetes.png" class="project-card__media" data-size="1536x1024">
+                            <img src="img/portfolio/Kubernetes.png" class="project-card__image" width="1536" height="1024" decoding="async" alt="Isometric illustration of server nodes linked by glowing lines, with the Kubernetes logo">
                           </a>
-                          <h3 class="project-card__title">High Availability with Kubernetes</h3>
                           <figcaption class="project-card__details">
                             <h5>High Availability with Kubernetes
                               <small>Network Administrator</small>
                             </h5>
-                            <p class="text-small">
-                              Deployed a high availability infrastructure using Kubernetes to ensure reliable, fault-tolerant services with zero downtime.
-                            </p>
-                            <br>
-                            <p class="text-small">Tools: Kubernetes, Docker, Linux, HAProxy</p>
+                            <div class="project-card__copy">
+                              <p class="text-small">
+                                Deployed a high availability infrastructure using Kubernetes to ensure reliable, fault-tolerant services with zero downtime.
+                              </p>
+                              <p class="project-card__meta text-small">Tools: Kubernetes, Docker, Linux, HAProxy</p>
+                            </div>
                           </figcaption>
+                          <h3 class="project-card__title">High Availability with Kubernetes</h3>
                         </figure>
 
                         <figure class="col-12 col-md-6 project-card grid-item reveal-grid-2">
-                          <a href="img/portfolio/Wazuh.webp" data-image="img/portfolio/Wazuh.webp" class="project-card__media" data-size="1536x1024">
-                            <img src="img/portfolio/Wazuh.webp" class="project-card__image" width="1536" height="1024" decoding="async" alt="Wazuh logo">
+                          <a href="img/portfolio/Wazuh.png" data-image="img/portfolio/Wazuh.png" class="project-card__media" data-size="1536x1024">
+                            <img src="img/portfolio/Wazuh.png" class="project-card__image" width="1536" height="1024" decoding="async" alt="Wazuh logo">
                           </a>
-                          <h3 class="project-card__title">Wazuh Deployment &amp; Security Monitoring</h3>
                           <figcaption class="project-card__details">
                             <h5>Wazuh Deployment &amp; Security Monitoring
                               <small>Cybersecurity Analyst</small>
                             </h5>
-                            <p class="text-small">
-                              Implemented a centralized Wazuh monitoring solution to collect logs, detect threats, and automate response across Linux and Windows systems.
-                              <br><br>
-                              Built real-time alerting and compliance visibility to improve security posture and accelerate incident investigation.
-                            </p>
-                            <br>
-                            <p class="text-small">Tools: Wazuh, Elasticsearch, Linux, Windows</p>
+                            <div class="project-card__copy">
+                              <p class="text-small">
+                                Implemented a centralized Wazuh monitoring solution to collect logs, detect threats, and automate response across Linux and Windows systems.
+                              </p>
+                              <p class="text-small">
+                                Built real-time alerting and compliance visibility to improve security posture and accelerate incident investigation.
+                              </p>
+                              <p class="project-card__meta text-small">Tools: Wazuh, Elasticsearch, Linux, Windows</p>
+                            </div>
                           </figcaption>
+                          <h3 class="project-card__title">Wazuh Deployment &amp; Security Monitoring</h3>
                         </figure>
 
                       </div>
@@ -590,13 +595,9 @@
                       <div class="row g-0 justify-content-between">
               
                         <div class="col-12 col-md-8 col-lg-7 col-xxl-9 grid-item about-story section-column--compact">
-                          <p class="about-story__text text-relaxed reveal-up">
-                            Rather than limiting myself to a single area, I chose to develop a broad understanding of IT systems. Development, network administration, and cybersecurity — to me, these three pillars are deeply connected and essential to improving and securing modern infrastructures.
-                            <br><br>
-                            I'm not just here to write code or configure a firewall. I'm driven by a desire to understand how systems work, identify weaknesses, and strengthen them intelligently.
-                            <br><br>
-                            Curious and self-taught, I constantly seek to learn and go deep into any topic — whether it’s debugging an API, securing a network, or automating a deployment, I approach each challenge with a problem-solving mindset.
-                            </p>
+                          <p class="about-story__text text-relaxed reveal-up">Rather than limiting myself to a single area, I chose to develop a broad understanding of IT systems. Development, network administration, and cybersecurity — to me, these three pillars are deeply connected and essential to improving and securing modern infrastructures.</p>
+                          <p class="about-story__text text-relaxed reveal-up">I'm not just here to write code or configure a firewall. I'm driven by a desire to understand how systems work, identify weaknesses, and strengthen them intelligently.</p>
+                          <p class="about-story__text text-relaxed reveal-up">Curious and self-taught, I constantly seek to learn and go deep into any topic — whether it’s debugging an API, securing a network, or automating a deployment, I approach each challenge with a problem-solving mindset.</p>
                           <div class="btn-group about-story__actions reveal-up">
                             <a class="btn btn--primary btn-hover" href="#contact" data-e="eGgxd2hxaHloa3dDdmVybQ==" title="Ask Lucas Thevenet for his CV by email">
                               <em></em>
@@ -748,16 +749,17 @@
                         <div class="col-12 col-md-4 col-lg-2">
                           <p class="timeline__date text-relaxed reveal-up">Sept. 2026 – present</p>
                         </div>
-                        <div class="col-12 col-md-4 col-lg-5">
-                          <h4 class="timeline__title reveal-up">Apprenticeship</h4>
-                          <p class="timeline__meta text-small reveal-up">Ordiservices (Dijon)</p>
-                        </div>
-                        <div class="col-12 col-md-4 col-lg-5">
-                          <p class="timeline__description text-relaxed reveal-up">
-                            Systems &amp; network administrator apprentice at Ordiservices. I deploy and run the virtualisation platform — Proxmox VE hosts and Debian 13 virtual machines — along with containerised services managed with Docker and Portainer, Samba file shares, WebDAV access and a Caddy reverse proxy.
-                            <br><br>
-                            I also designed a redesign of the network segmented into VLANs, and I automate administration tasks with PowerShell and Bash scripts scheduled through cron and systemd.
-                          </p>
+                        <div class="col-12 col-md-8 col-lg-10">
+                          <div class="timeline__internship-grid">
+                            <div class="timeline__internship-meta">
+                              <h4 class="timeline__title reveal-up">Apprenticeship</h4>
+                              <p class="timeline__meta text-small reveal-up">Ordiservices (Dijon)</p>
+                            </div>
+                            <div class="timeline__internship-flow text-relaxed reveal-up">
+                              <p>Systems &amp; network administrator apprentice at Ordiservices. I deploy and run the virtualisation platform — Proxmox VE hosts and Debian 13 virtual machines — along with containerised services managed with Docker and Portainer, Samba file shares, WebDAV access and a Caddy reverse proxy.</p>
+                              <p>I also designed a redesign of the network segmented into VLANs, and I automate administration tasks with PowerShell and Bash scripts scheduled through cron and systemd.</p>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -767,17 +769,22 @@
                         <div class="col-12 col-md-4 col-lg-2">
                           <p class="timeline__date text-relaxed reveal-up">February 2021</p>
                         </div>
-                        <div class="col-12 col-md-4 col-lg-5">
-                          <h4 class="timeline__title reveal-up">Internship</h4>
-                          <p class="timeline__meta text-small reveal-up">
-                            <a class="inline-link" href="https://www.gate.cnrs.fr/en/" target="_blank" rel="noopener noreferrer">CNRS GATE-LSE</a> (Ecully)
-                          </p>
-                        </div>
-                        <div class="col-12 col-md-4 col-lg-5">
-                          <p class="timeline__description text-relaxed reveal-up">
-                            Realization of a company internship in one of the laboratories of the CNRS, more precisely the 'Groupe d'Analyse et de Théorie Economique' base in Ecully with for master of internship the Informatics engineer of the research institute. 
-                            <br><br>
-                            This allowed me to understand the importance of IT in science, but also the importance of behavioral sciences in society.</p>
+                        <div class="col-12 col-md-8 col-lg-10">
+                          <div class="timeline__internship-grid">
+                            <div class="timeline__internship-meta">
+                              <h4 class="timeline__title reveal-up">Internship</h4>
+                              <p class="timeline__meta text-small reveal-up">
+                                <a class="inline-link" href="https://www.gate.cnrs.fr/en/" target="_blank" rel="noopener noreferrer">CNRS GATE-LSE</a> (Ecully)
+                              </p>
+                            </div>
+                            <div class="timeline__internship-flow text-relaxed reveal-up">
+                              <div class="timeline__company-media">
+                                <img src="img/portfolio/Gate.png" alt="GATE Lyon Saint-Etienne logo">
+                              </div>
+                              <p>Realization of a company internship in one of the laboratories of the CNRS, more precisely the 'Groupe d'Analyse et de Théorie Economique' base in Ecully with for master of internship the Informatics engineer of the research institute.</p>
+                              <p>This allowed me to understand the importance of IT in science, but also the importance of behavioral sciences in society.</p>
+                            </div>
+                          </div>
                         </div>
                       </div>
                       <div class="timeline-divider reveal-up"></div>
@@ -787,18 +794,22 @@
                         <div class="col-12 col-md-4 col-lg-2">
                           <p class="timeline__date text-relaxed reveal-up">May-June 2025</p>
                         </div>
-                        <div class="col-12 col-md-4 col-lg-5">
-                          <h4 class="timeline__title reveal-up">Internship</h4>
-                          <p class="timeline__meta text-small reveal-up">
-                            <a class="inline-link" href="https://www.smokloud.fr/" target="_blank" rel="noopener noreferrer">SMOKLOUD</a> (Lempdes)
-                          </p>
-                        </div>
-                        <div class="col-12 col-md-4 col-lg-5">
-                          <p class="timeline__description text-relaxed reveal-up">
-                           Company internship at SmokLOUD, I worked on securing the entire network infrastructure of the physical store while simultaneously developing the front-end of the e-commerce site with integration to the POS system. 
-                            <br><br>
-                            This experience allowed me to enhance my skills in network security, including the implementation of DMZs and firewall configurations, as well as in full-stack web development. I also gained practical knowledge in integrating payment gateways and inventory management systems, ensuring a seamless connection between the online platform and in-store operations.                           
-                          </p>                            
+                        <div class="col-12 col-md-8 col-lg-10">
+                          <div class="timeline__internship-grid">
+                            <div class="timeline__internship-meta">
+                              <h4 class="timeline__title reveal-up">Internship</h4>
+                              <p class="timeline__meta text-small reveal-up">
+                                <a class="inline-link" href="https://www.smokloud.fr/" target="_blank" rel="noopener noreferrer">SMOKLOUD</a> (Lempdes)
+                              </p>
+                            </div>
+                            <div class="timeline__internship-flow text-relaxed reveal-up">
+                              <div class="timeline__company-media">
+                                <img src="img/portfolio/Smokloud.png" alt="SmokLOUD logo">
+                              </div>
+                              <p>Company internship at SmokLOUD, I worked on securing the entire network infrastructure of the physical store while simultaneously developing the front-end of the e-commerce site with integration to the POS system.</p>
+                              <p>This experience allowed me to enhance my skills in network security, including the implementation of DMZs and firewall configurations, as well as in full-stack web development. I also gained practical knowledge in integrating payment gateways and inventory management systems, ensuring a seamless connection between the online platform and in-store operations.</p>
+                            </div>
+                          </div>
                         </div>
                       </div>
                       <div class="timeline-divider reveal-up"></div>
@@ -808,18 +819,22 @@
                         <div class="col-12 col-md-4 col-lg-2">
                           <p class="timeline__date text-relaxed reveal-up">Jan. - Feb. 2026</p>
                         </div>
-                        <div class="col-12 col-md-4 col-lg-5">
-                          <h4 class="timeline__title reveal-up">Internship</h4>
-                          <p class="timeline__meta text-small reveal-up">
-                            <a class="inline-link" href="https://www.apanimaux63.org/" target="_blank" rel="noopener noreferrer">APA63</a> (Gerzat)
-                          </p>
-                        </div>
-                        <div class="col-12 col-md-4 col-lg-5">
-                          <p class="timeline__description text-relaxed reveal-up">
-                            Company internship at APA 63, I was responsible for modernizing and securing parts of the organization’s IT infrastructure. I deployed a Home Assistant server under Docker to centralize building automation systems and improve operational monitoring.
-                            <br><br>
-                            During this internship, I upgraded the workstation fleet to Windows 11 with BitLocker encryption, implemented a centralized backup strategy using Duplicati connected to a QNAP NAS, and reorganized the network rack to improve structure and reliability. This experience strengthened my skills in infrastructure management, system security, and business continuity.
-                          </p>                            
+                        <div class="col-12 col-md-8 col-lg-10">
+                          <div class="timeline__internship-grid">
+                            <div class="timeline__internship-meta">
+                              <h4 class="timeline__title reveal-up">Internship</h4>
+                              <p class="timeline__meta text-small reveal-up">
+                                <a class="inline-link" href="https://www.apanimaux63.org/" target="_blank" rel="noopener noreferrer">APA63</a> (Gerzat)
+                              </p>
+                            </div>
+                            <div class="timeline__internship-flow text-relaxed reveal-up">
+                              <div class="timeline__company-media">
+                                <img src="img/portfolio/apa63.png" alt="APA 63 logo">
+                              </div>
+                              <p>Company internship at APA 63, I was responsible for modernizing and securing parts of the organization’s IT infrastructure. I deployed a Home Assistant server under Docker to centralize building automation systems and improve operational monitoring.</p>
+                              <p>During this internship, I upgraded the workstation fleet to Windows 11 with BitLocker encryption, implemented a centralized backup strategy using Duplicati connected to a QNAP NAS, and reorganized the network rack to improve structure and reliability. This experience strengthened my skills in infrastructure management, system security, and business continuity.</p>
+                            </div>
+                          </div>
                         </div>
                       </div>
                       
@@ -1215,7 +1230,6 @@
           <div class="pswp__top-bar">
             <div class="pswp__counter"></div>
             <button type="button" class="pswp__button pswp__button--close link-s" title="Close (Esc)"></button>
-            <button type="button" class="pswp__button pswp__button--share link-s" title="Share"></button>
             <button type="button" class="pswp__button pswp__button--fs link-s" title="Toggle fullscreen"></button>
             <button type="button" class="pswp__button pswp__button--zoom link-s" title="Zoom in/out"></button>
             <div class="pswp__preloader">
