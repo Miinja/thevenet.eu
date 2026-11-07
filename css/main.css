@@ -2662,6 +2662,20 @@ form textarea:required:valid {
   }
 }
 
+/* Sélecteur de langue FR/EN (discret, visible à toutes les tailles) */
+.site-nav__lang {
+  font: normal var(--font-weight-medium) 1.3rem/1 var(--_font-default);
+  letter-spacing: 0.08em;
+  color: var(--t-medium);
+  -webkit-transition: color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+.site-nav__link--lang:hover .site-nav__lang,
+.site-nav__link--lang:focus-visible .site-nav__lang {
+  color: var(--t-bright);
+}
+
 .site-nav__label {
   display: none;
 }
@@ -2735,150 +2749,6 @@ form textarea:required:valid {
 
 /* ------------------------------------------------*/
 /* Blocks Footer End */
-/* ------------------------------------------------*/
-/* ------------------------------------------------*/
-/* Blocks Popup Dialogs Start */
-/* ------------------------------------------------*/
-.mfp-wrap {
-  position: fixed !important;
-}
-
-.mfp-fade {
-  overflow: hidden;
-}
-
-.mfp-fade .mfp-container {
-  position: fixed;
-  overflow-y: scroll;
-}
-
-.mfp-bg {
-  opacity: 1;
-  background-color: rgba(0, 0, 0, 0.6);
-}
-
-.mfp-container {
-  padding: 0;
-}
-
-.mfp-close-btn-in .mfp-close {
-  width: 4rem;
-  height: 4rem;
-  -moz-border-radius: var(--_radius-s);
-       border-radius: var(--_radius-s);
-  border: 1px solid var(--t-per-bright-dark);
-  right: 3rem;
-  top: 3rem;
-  opacity: 1;
-  padding: 0;
-  font: inherit;
-  color: var(--t-per-bright-dark);
-  font-size: 1.8rem;
-  line-height: 1;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-.mfp-close-btn-in .mfp-close::before {
-  display: -webkit-inline-box;
-  display: -moz-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  font-family: "Phosphor";
-  content: "\eddb";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  bottom: auto;
-  right: auto;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-     -moz-transform: translateX(-50%) translateY(-50%);
-      -ms-transform: translateX(-50%) translateY(-50%);
-          transform: translateX(-50%) translateY(-50%);
-}
-.mfp-close-btn-in .mfp-close.permanent-dark {
-  border: 1px solid var(--t-per-bright-dark);
-  background-color: var(--t-per-bright-dark);
-  color: var(--t-per-bright-light);
-}
-.mfp-close-btn-in .mfp-close.permanent-light {
-  border: 1px solid var(--t-per-bright-light);
-  background-color: var(--t-per-bright-light);
-  color: var(--t-per-bright-dark);
-}
-@media only screen and (min-width: 1200px) {
-  .mfp-close-btn-in .mfp-close.permanent-dark {
-    border: 1px solid var(--t-per-bright-dark);
-    background-color: transparent;
-    color: var(--t-per-bright-dark);
-  }
-  .mfp-close-btn-in .mfp-close.permanent-light {
-    border: 1px solid var(--t-per-bright-light);
-    background-color: transparent;
-    color: var(--t-per-bright-light);
-  }
-  .no-touch .mfp-close-btn-in .mfp-close:hover.permanent-dark {
-    border: 1px solid var(--t-per-bright-dark);
-    background-color: var(--t-per-bright-dark);
-    color: var(--neutral-white);
-  }
-  .no-touch .mfp-close-btn-in .mfp-close:hover.permanent-light {
-    border: 1px solid var(--t-per-bright-light);
-    background-color: var(--t-per-bright-light);
-    color: var(--t-per-bright-dark);
-  }
-}
-@media only screen and (min-width: 1400px) {
-  .mfp-close-btn-in .mfp-close {
-    width: 5rem;
-    height: 5rem;
-  }
-}
-
-.mfp-fade.mfp-bg {
-  opacity: 0;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.mfp-fade.mfp-bg.mfp-ready {
-  opacity: 1;
-}
-
-.mfp-fade.mfp-bg.mfp-removing {
-  opacity: 0;
-}
-
-.mfp-fade.mfp-wrap .mfp-content {
-  opacity: 0;
-  -webkit-transform: translateY(3rem);
-     -moz-transform: translateY(3rem);
-      -ms-transform: translateY(3rem);
-          transform: translateY(3rem);
-  -webkit-transition: all 0.3s var(--_animbezier);
-  -moz-transition: all 0.3s var(--_animbezier);
-  transition: all 0.3s var(--_animbezier);
-}
-
-.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
-  opacity: 1;
-  -webkit-transform: translateY(0);
-     -moz-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-}
-
-.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
-  opacity: 0;
-  -webkit-transform: translateY(3rem);
-     -moz-transform: translateY(3rem);
-      -ms-transform: translateY(3rem);
-          transform: translateY(3rem);
-}
-
-/* ------------------------------------------------*/
-/* Blocks Popup Dialogs End */
 /* ------------------------------------------------*/
 /* ------------------------------------------------*/
 /* Features Marquee Start */

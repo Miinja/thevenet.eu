@@ -2,10 +2,5 @@
 # Tout le contenu public est explorable (CSS/JS/images inclus : nécessaires au rendu par Google).
 User-agent: *
 Allow: /
-# Zones privées / techniques (déjà interdites par le serveur ; on évite aussi de les explorer)
-Disallow: /inc/
-Disallow: /storage/
-Disallow: /error_pages/
-Disallow: /contact.php
 
 Sitemap: https://www.thevenet.eu/sitemap.xml

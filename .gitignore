@@ -1,5 +1,5 @@
 # ─────────────────────────────────────────────
-# .gitignore — thevenet.eu (site statique Netlify)
+# .gitignore — thevenet.eu (site statique GitHub Pages)
 # ─────────────────────────────────────────────
 
 # Secrets et configuration privée (ne jamais versionner)
@@ -10,13 +10,6 @@ inc/config.php
 *.pem
 *.p12
 secrets/
-
-# Données générées par l'ancien formulaire PHP
-storage/*
-!storage/index.html
-
-# Netlify CLI (dossier local, contient l'ID du site)
-.netlify/
 
 # Fichiers système
 .DS_Store

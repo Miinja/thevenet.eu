@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; frame-src 'none'; upgrade-insecure-requests">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title & description -->
+    <title>Lucas Thevenet | Systems &amp; Network Administrator (apprentice) – Infrastructure Security</title>
+    <meta name="description" content="Portfolio of Lucas Thevenet, systems &amp; network administrator (apprentice) in Dijon specialising in infrastructure security: Proxmox, Docker, Wazuh, pfSense.">
+    <meta name="author" content="Lucas Thevenet">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://www.thevenet.eu/en.html">
+    <link rel="alternate" hreflang="fr" href="https://www.thevenet.eu/">
+    <link rel="alternate" hreflang="en" href="https://www.thevenet.eu/en.html">
+    <link rel="alternate" hreflang="x-default" href="https://www.thevenet.eu/">
+
+    <!-- Open Graph (Facebook, LinkedIn, Discord, Slack, WhatsApp...) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Lucas Thevenet - Portfolio">
+    <meta property="og:title" content="Lucas Thevenet | Systems &amp; Network Administrator (apprentice) – Infrastructure Security">
+    <meta property="og:description" content="Portfolio of Lucas Thevenet, systems &amp; network administrator (apprentice) in Dijon specialising in infrastructure security: Proxmox, Docker, Wazuh, pfSense.">
+    <meta property="og:url" content="https://www.thevenet.eu/en.html">
+    <meta property="og:image" content="https://www.thevenet.eu/img/social/og-image.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Lucas Thevenet - Full Stack Developer, Network Administrator, Cyber Security Analyst">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="fr_FR">
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Lucas Thevenet | Systems &amp; Network Administrator (apprentice) – Infrastructure Security">
+    <meta name="twitter:description" content="Portfolio of Lucas Thevenet, systems &amp; network administrator (apprentice) in Dijon specialising in infrastructure security: Proxmox, Docker, Wazuh, pfSense.">
+    <meta name="twitter:image" content="https://www.thevenet.eu/img/social/og-image.jpg">
+    <meta name="twitter:image:alt" content="Lucas Thevenet - Full Stack Developer, Network Administrator, Cyber Security Analyst">
+
+    <!-- Favicon & Icons Start -->
+    <link rel="icon" href="img/favicon/favicon.ico" sizes="32x32">
+    <link rel="icon" href="img/favicon/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <!-- Favicon & Icons End -->
+
+    <!-- Preloads : ressources critiques du premier affichage -->
+    <link rel="preload" href="fonts/Phosphor/Phosphor.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="img/ambiance/background.webp" as="image" fetchpriority="high">
+
+    <!-- Styles Start (incrémenter ?v= après une modification du fichier) -->
+    <link rel="stylesheet" type="text/css" href="css/loaders/loader.css?v=20260920">
+    <link rel="stylesheet" type="text/css" href="css/plugins.css?v=20261107">
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=20261107">
+    <!-- Styles End -->
+
+    <!-- Scripts : téléchargés en parallèle (defer), exécutés dans l'ordre après l'analyse du HTML -->
+    <script src="js/libs.min.js?v=20261107" defer></script>
+    <script src="js/gallery-init.js?v=20260920" defer></script>
+    <script src="js/app.js?v=20260920" defer></script>
+    <script src="js/contact.js?v=20260920" defer></script>
+
+    <!-- Sans JavaScript : ne pas bloquer le contenu derrière le préchargeur -->
+    <noscript><style>#loader{display:none !important}</style></noscript>
+
+    <!-- Custom Browser Color Start -->
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f1f1f1">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#141414">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- Custom Browser Color End -->
+
+    <!-- Structured data (schema.org) : Person + ProfilePage + WebSite + projets -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.thevenet.eu/#website",
+      "url": "https://www.thevenet.eu/",
+      "name": "Lucas Thevenet - Portfolio",
+      "alternateName": [
+        "Thevenet Lucas",
+        "Thevenet_"
+      ],
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://www.thevenet.eu/#person"
+      }
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://www.thevenet.eu/en.html#profilepage",
+      "url": "https://www.thevenet.eu/en.html",
+      "name": "Lucas Thevenet | Systems & Network Administrator (apprentice) – Infrastructure Security",
+      "description": "Portfolio of Lucas Thevenet, systems & network administrator (apprentice) in Dijon specialising in infrastructure security: Proxmox, Docker, Wazuh, pfSense.",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://www.thevenet.eu/#website"
+      },
+      "dateModified": "2026-11-07",
+      "mainEntity": {
+        "@id": "https://www.thevenet.eu/#person"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://www.thevenet.eu/img/social/og-image.jpg",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.thevenet.eu/#person",
+      "name": "Lucas Thevenet",
+      "givenName": "Lucas",
+      "familyName": "Thevenet",
+      "alternateName": "Thevenet Lucas",
+      "url": "https://www.thevenet.eu/",
+      "jobTitle": "Systems & Network Administrator (apprentice) – Infrastructure Security",
+      "description": "Systems and network administrator (apprentice) focused on building, improving and securing modern infrastructures.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dijon",
+        "postalCode": "21000",
+        "addressRegion": "Côte-d'Or",
+        "addressCountry": "FR"
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Ordiservices",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Dijon",
+          "addressCountry": "FR"
+        }
+      },
+      "sameAs": [
+        "https://github.com/miinja",
+        "https://linkedin.com/in/lucas-thevenet-a44a56333"
+      ],
+      "alumniOf": [
+        {
+          "@type": "EducationalOrganization",
+          "name": "Campus La Salle Bansac",
+          "url": "https://www.lasalle63.fr/campus-1"
+        },
+        {
+          "@type": "EducationalOrganization",
+          "name": "Lycée Godefroy de Bouillon",
+          "url": "https://www.lasalle63.fr/legt"
+        }
+      ],
+      "knowsAbout": [
+        "Proxmox VE",
+        "Debian",
+        "Samba",
+        "WebDAV",
+        "Caddy",
+        "Portainer",
+        "VLAN",
+        "PowerShell",
+        "Bash",
+        "Web development",
+        "PHP",
+        "MySQL",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Network administration",
+        "Cyber security",
+        "Linux",
+        "Docker",
+        "Kubernetes",
+        "HAProxy",
+        "pfSense",
+        "Wireshark",
+        "Wazuh",
+        "Elasticsearch",
+        "Windows 11",
+        "BitLocker",
+        "Home Assistant"
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.thevenet.eu/#projects",
+      "name": "Selected projects",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "OfisHelper",
+            "description": "Designed and built a productivity web application using the GPT API to assist with writing, summarizing, and sending emails in a corporate environment. Built seamless payment integration and robust database architecture to deliver a fully autonomous platform that boosts efficiency and reduces manual workload.",
+            "image": "https://www.thevenet.eu/img/portfolio/Ofishelper.webp",
+            "creator": {
+              "@id": "https://www.thevenet.eu/#person"
+            },
+            "keywords": "PHP, MySQL, JavaScript, HTML5, CSS3",
+            "genre": "Full Stack Developer"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "GuinBearGang",
+            "description": "Developed a minting website and an interactive Discord bot to simulate a fictional economy. Users could purchase lottery tickets using in-game currency and win royalties from an NFT collection on the Solana blockchain.",
+            "image": "https://www.thevenet.eu/img/portfolio/Guinbeargang.webp",
+            "creator": {
+              "@id": "https://www.thevenet.eu/#person"
+            },
+            "keywords": "JavaScript (Discord.js, Web3.js), JSON, HTML5, CSS3",
+            "genre": "Web3 Developer & Game Designer"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Smokloud",
+            "description": "Developed a secure and regulation-compliant e-commerce site for a vaping business. Implemented a DMZ-based Wi-Fi infrastructure, ensuring compliance with EU cybersecurity laws, GDPR, and FIVAPE industry standards — enabling the business to operate safely and legally online.",
+            "image": "https://www.thevenet.eu/img/portfolio/Smokloud.webp",
+            "creator": {
+              "@id": "https://www.thevenet.eu/#person"
+            },
+            "keywords": "PFsense, Omada, Wireshark, PHP, HTML, CSS",
+            "genre": "Network Administrator & Web Developer",
+            "url": "https://smokloud.fr"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "APA 63 – Infrastructure Modernization",
+            "description": "Modernization and security enhancement of the organization's IT infrastructure. Deployed a Home Assistant server under Docker to centralize building automation and improve operational monitoring. Upgraded the workstation fleet to Windows 11 with BitLocker encryption, implemented a centralized backup strategy using…",
+            "image": "https://www.thevenet.eu/img/portfolio/apa63.webp",
+            "creator": {
+              "@id": "https://www.thevenet.eu/#person"
+            },
+            "keywords": "Docker, Home Assistant, Windows 11, BitLocker, Duplicati, QNAP NAS",
+            "genre": "Systems & Network Administrator"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "High Availability with Kubernetes",
+            "description": "Deployed a high availability infrastructure using Kubernetes to ensure reliable, fault-tolerant services with zero downtime.",
+            "image": "https://www.thevenet.eu/img/portfolio/Kubernetes.webp",
+            "creator": {
+              "@id": "https://www.thevenet.eu/#person"
+            },
+            "keywords": "Kubernetes, Docker, Linux, HAProxy",
+            "genre": "Network Administrator"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "CreativeWork",
+            "name": "Wazuh Deployment & Security Monitoring",
+            "description": "Implemented a centralized Wazuh monitoring solution to collect logs, detect threats, and automate response across Linux and Windows systems. Built real-time alerting and compliance visibility to improve security posture and accelerate incident investigation.",
+            "image": "https://www.thevenet.eu/img/portfolio/Wazuh.webp",
+            "creator": {
+              "@id": "https://www.thevenet.eu/#person"
+            },
+            "keywords": "Wazuh, Elasticsearch, Linux, Windows",
+            "genre": "Cybersecurity Analyst"
+          }
+        }
+      ]
+    }
+  ]
+}
+    </script>
+  </head>
+
+  <body>
+
+    <a class="skip-link" href="#page-content">Skip to main content</a>
+
+    <!-- Loader Start -->
+    <div id="loader" class="page-loader">
+      <div class="page-loader__panel">
+        <div class="page-loader__content">
+          <div class="page-loader__count">
+            <span class="page-loader__value">0</span>
+            <span class="page-loader__unit">%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Loader End -->
+
+    <!-- Header Start -->
+    <header id="header" class="site-header d-flex justify-content-center page-ready-fade">
+      <div class="site-header__nav d-flex justify-content-start">
+        <nav id="menu" class="site-nav">
+          <ul class="site-nav__list d-flex justify-content-start">
+            <li class="site-nav__item">
+              <a class="site-nav__link btn" href="#home">
+                <span class="site-nav__label">Home</span>
+                <i class="ph ph-house-simple"></i>
+              </a>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link btn" href="#portfolio">
+                <span class="site-nav__label">Portfolio</span>
+                <i class="ph ph-squares-four"></i>
+              </a>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link btn" href="#about">
+                <span class="site-nav__label">About Me</span>
+                <i class="ph ph-user"></i>
+              </a>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link btn" href="#resume">
+                <span class="site-nav__label">Resume</span>
+                <i class="ph ph-article"></i>
+              </a>
+            </li>
+            <li class="site-nav__item">
+              <a class="site-nav__link btn" href="#contact">
+                <span class="site-nav__label">Contact</span>
+                <i class="ph ph-envelope"></i>
+              </a>
+            </li>
+            <li class="site-nav__item site-nav__item--lang">
+              <a class="site-nav__link site-nav__link--lang btn" href="./" hreflang="fr" lang="fr" title="Version française">
+                <span class="site-nav__lang">FR</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Logo Start -->
+    <div class="site-brand page-ready-fade">
+      <a href="#home" class="site-brand__link">
+        <img class="site-brand__mark" src="img/favicon/favicon.ico" alt="Thevenet_">
+        <span class="site-brand__name">Thevenet_</span>
+      </a>
+    </div>
+    <!-- Logo End -->
+
+    <div class="theme-toggle page-ready-fade">
+      <button id="color-switcher" class="theme-toggle__button" type="button" role="switch" aria-label="Toggle light/dark mode" aria-checked="true"></button>
+    </div>
+
+    <!-- Page Content Start -->
+    <main id="page-content" class="site-content" tabindex="-1">
+
+      <!-- Main Section Start -->
+      <section id="home" class="hero home">
+        <div class="hero__frame hero__frame--compact">
+          <div class="hero__art hero__art--base">
+            <div class="hero__art-front" data-speed="0.6">
+              <img class="theme-image" alt="" width="1440" height="980" fetchpriority="high" decoding="async" src="img/ambiance/background.webp">
+            </div>
+            <div class="hero__art-back" data-speed="0.8">
+              <img class="theme-image" alt="" width="1440" height="980" decoding="async" src="img/ambiance/background.webp">
+            </div>
+          </div>
+          <div class="container-fluid p-0 full-height-desktop">
+            <div class="row g-0 full-height-desktop align-items-xl-stretch">
+              <div class="col-12 col-xl-2"></div>
+              <div class="col-12 col-xl-8 full-height-desktop">
+                <div id="headline" class="hero-copy hero-copy--compact d-flex align-items-start flex-column page-ready-group">
+                  <h1 class="hero-copy__title page-ready-item"><span class="sr-only">Lucas Thevenet, Systems &amp; Network Administrator (apprentice) – Infrastructure Security. </span>Efficient Code, Secured Systems</h1>
+                  <p class="hero-copy__lead hero-copy__lead--spaced typing-text page-ready-item">Hello ! I'm Lucas Thevenet
+                    <br>
+                    <span id="typed-strings">
+                      <b>Systems &amp; Network Administrator</b>
+                      <b>Apprentice at Ordiservices</b>
+                      <b>Infrastructure Security</b>
+                    </span>
+                    <span id="typed"></span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-xl-2"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Main Section End -->
+
+      <!-- Section - Portfolio - Start -->
+      <section id="portfolio" class="page-section page-section--spaced portfolio">
+        <div class="page-section__wrap">
+          <div class="container-fluid p-0">
+            <div class="row g-0">
+              <div class="col-12 col-xl-2">
+                <div class="page-section__aside">
+                  <div class="section-block section-block--label">
+                    <span class="section-label icon-right reveal-up">
+                      <span class="section-label__text">Portfolio</span>
+                      <i class="ph ph-arrow-down-right"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <!-- Section Content Start -->
+              <div class="col-12 col-xl-8">
+                <div class="page-section__body">
+                  <div class="section-block section-block--title-copy">
+                    <div class="section-intro">
+                      <h2 class="split-reveal reveal-up">Selected<br>projects</h2>
+                      <p class="section-intro__text text-relaxed reveal-up">
+                        Building solutions that empower businesses through clean code and strong security. Projects that taught me, challenged me, and created impact. 
+                        <br><br>
+                        Click on any project to learn more.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="section-block section-block--grid">
+                    <div class="container-fluid px-0 project-gallery">
+                      <div class="row gx-0 project-gallery__grid" data-masonry='{"percentPosition": true }'>
+                        <figure class="col-12 col-md-6 project-card grid-item reveal-grid-2">
+                          <a href="img/portfolio/Ofishelper.webp" data-image="img/portfolio/Ofishelper.webp" class="project-card__media" data-size="1400x1050">
+                            <img src="img/portfolio/Ofishelper.webp" class="project-card__image" width="1400" height="1050" decoding="async" alt="Illustration of a small cardboard robot sorting papers, mascot of the OfisHelper productivity app">
+                          </a>
+                          <h3 class="project-card__title">OfisHelper - Enterprise Productivity Tool</h3>
+                          <figcaption class="project-card__details">
+                            <h5>OfisHelper
+                              <small>Full Stack Developer</small>
+                            </h5>
+                            <p class="text-small">
+                              Designed and built a productivity web application using the GPT API to assist with writing, summarizing, and sending emails in a corporate environment. Built seamless payment integration and robust database architecture to deliver a fully autonomous platform that boosts efficiency and reduces manual workload.
+                            </p>
+                            <br>
+                            <p class="text-small">Tech Stack: PHP, MySQL, JavaScript, HTML5, CSS3</p>
+                          </figcaption>
+                        </figure>
+                        <figure class="col-12 col-md-6 project-card grid-item reveal-grid-2">
+                          <a href="img/portfolio/Guinbeargang.webp" data-image="img/portfolio/Guinbeargang.webp" class="project-card__media" data-size="1100x1400">
+                            <img src="img/portfolio/Guinbeargang.webp" class="project-card__image" width="1100" height="1400" decoding="async" alt="GuinBearGang logo on a colourful blurred pastel background">
+                          </a>
+                          <h3 class="project-card__title">GuinBearGang - NFT Project</h3>
+                          <figcaption class="project-card__details">
+                            <h5>GuinBearGang
+                              <small>Web3 Developer &amp; Game Designer</small>
+                            </h5>
+                            <p class="text-small">
+                              Developed a minting website and an interactive Discord bot to simulate a fictional economy. Users could purchase lottery tickets using in-game currency and win royalties from an NFT collection on the Solana blockchain.
+                            </p>
+                            <br>
+                            <p class="text-small">Tech Stack: JavaScript (Discord.js, Web3.js), JSON, HTML5, CSS3</p>
+                          </figcaption>
+                        </figure>
+
+                        <figure class="col-12 col-md-6 project-card grid-item reveal-grid-2">
+                          <a href="img/portfolio/Smokloud.webp" data-image="img/portfolio/Smokloud.webp" class="project-card__media" data-size="1536x1024">
+                            <img src="img/portfolio/Smokloud.webp" class="project-card__image" width="1536" height="1024" decoding="async" alt="SmokLOUD logo">
+                          </a>
+                          <h3 class="project-card__title">Smokloud - E-commerce Website &amp; Infrastructure</h3>
+                          <figcaption class="project-card__details">
+                            <h5>Smokloud
+                              <small>Network Administrator &amp; Web Developer</small>
+                            </h5>
+                            <p class="text-small">
+                              Developed a secure and regulation-compliant e-commerce site for a vaping business. Implemented a DMZ-based Wi-Fi infrastructure, ensuring compliance with EU cybersecurity laws, GDPR, and FIVAPE industry standards — enabling the business to operate safely and legally online.
+                              <br><br>
+                              <a href="https://Smokloud.fr" target="_blank" rel="noopener noreferrer">🌐 View Website (smokloud.fr)</a>
+                            </p>
+                            <br>
+                            <p class="text-small">Tech Stack: PFsense, Omada, Wireshark, PHP, HTML, CSS</p>
+                          </figcaption>
+                        </figure>
+
+                        <figure class="col-12 col-md-6 project-card grid-item reveal-grid-2">
+                          <a href="img/portfolio/apa63.webp" data-image="img/portfolio/apa63.webp" class="project-card__media" data-size="1536x1024">
+                            <img src="img/portfolio/apa63.webp" class="project-card__image" width="1536" height="1024" decoding="async" alt="APA 63 logo, a blue paw print">
+                          </a>
+                          <h3 class="project-card__title">APA 63 – Infrastructure &amp; Security</h3>
+                          <figcaption class="project-card__details">
+                            <h5>APA 63 – Infrastructure Modernization
+                              <small>Systems &amp; Network Administrator</small>
+                            </h5>
+                            <p class="text-small">
+                              Modernization and security enhancement of the organization's IT infrastructure. 
+                              Deployed a Home Assistant server under Docker to centralize building automation and improve operational monitoring.
+                            </p>
+                            <br>
+                            <p class="text-small">
+                              Upgraded the workstation fleet to Windows 11 with BitLocker encryption, implemented a centralized backup strategy using Duplicati connected to a QNAP NAS, reorganized the network rack, and restored the video surveillance system.
+                            </p>
+                            <br>
+                            <p class="text-small">Tech Stack: Docker, Home Assistant, Windows 11, BitLocker, Duplicati, QNAP NAS</p>
+                          </figcaption>
+                        </figure>
+
+                        <figure class="col-12 col-md-6 project-card grid-item reveal-grid-2">
+                          <a href="img/portfolio/Kubernetes.webp" data-image="img/portfolio/Kubernetes.webp" class="project-card__media" data-size="1536x1024">
+                            <img src="img/portfolio/Kubernetes.webp" class="project-card__image" width="1536" height="1024" decoding="async" alt="Isometric illustration of server nodes linked by glowing lines, with the Kubernetes logo">
+                          </a>
+                          <h3 class="project-card__title">High Availability with Kubernetes</h3>
+                          <figcaption class="project-card__details">
+                            <h5>High Availability with Kubernetes
+                              <small>Network Administrator</small>
+                            </h5>
+                            <p class="text-small">
+                              Deployed a high availability infrastructure using Kubernetes to ensure reliable, fault-tolerant services with zero downtime.
+                            </p>
+                            <br>
+                            <p class="text-small">Tools: Kubernetes, Docker, Linux, HAProxy</p>
+                          </figcaption>
+                        </figure>
+
+                        <figure class="col-12 col-md-6 project-card grid-item reveal-grid-2">
+                          <a href="img/portfolio/Wazuh.webp" data-image="img/portfolio/Wazuh.webp" class="project-card__media" data-size="1536x1024">
+                            <img src="img/portfolio/Wazuh.webp" class="project-card__image" width="1536" height="1024" decoding="async" alt="Wazuh logo">
+                          </a>
+                          <h3 class="project-card__title">Wazuh Deployment &amp; Security Monitoring</h3>
+                          <figcaption class="project-card__details">
+                            <h5>Wazuh Deployment &amp; Security Monitoring
+                              <small>Cybersecurity Analyst</small>
+                            </h5>
+                            <p class="text-small">
+                              Implemented a centralized Wazuh monitoring solution to collect logs, detect threats, and automate response across Linux and Windows systems.
+                              <br><br>
+                              Built real-time alerting and compliance visibility to improve security posture and accelerate incident investigation.
+                            </p>
+                            <br>
+                            <p class="text-small">Tools: Wazuh, Elasticsearch, Linux, Windows</p>
+                          </figcaption>
+                        </figure>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-xl-2"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section - Portfolio - End -->
+
+      <!-- Section - About - Start -->
+      <section id="about" class="page-section page-section--spaced about">
+        <div class="page-section__wrap">
+          <div class="container-fluid p-0">
+            <div class="row g-0">
+              <div class="col-12 col-xl-2">
+                <div class="page-section__aside">
+                  <div class="section-block section-block--label">
+                    <span class="section-label icon-right reveal-up">
+                      <span class="section-label__text">About Me</span>
+                      <i class="ph ph-arrow-down-right"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-xl-8">
+                <div class="page-section__body">
+                  <div class="section-block section-block--title">
+                    <div class="section-intro">
+                      <h2 class="split-reveal reveal-up">Approach and<br>philosophy</h2>
+                    </div>
+                  </div>
+                  <div class="section-block section-block--grid">
+                    <div class="container-fluid p-0">
+                      <div class="row g-0">
+                        <div class="col-12 grid-item">
+                          <div class="theme-image divider divider-image about-photo reveal-up"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="section-block section-block--grid">
+                    <div class="container-fluid p-0">
+                      <div class="row g-0 justify-content-between">
+              
+                        <div class="col-12 col-md-8 col-lg-7 col-xxl-9 grid-item about-story section-column--compact">
+                          <p class="about-story__text text-relaxed reveal-up">
+                            Rather than limiting myself to a single area, I chose to develop a broad understanding of IT systems. Development, network administration, and cybersecurity — to me, these three pillars are deeply connected and essential to improving and securing modern infrastructures.
+                            <br><br>
+                            I'm not just here to write code or configure a firewall. I'm driven by a desire to understand how systems work, identify weaknesses, and strengthen them intelligently.
+                            <br><br>
+                            Curious and self-taught, I constantly seek to learn and go deep into any topic — whether it’s debugging an API, securing a network, or automating a deployment, I approach each challenge with a problem-solving mindset.
+                            </p>
+                          <div class="btn-group about-story__actions reveal-up">
+                            <a class="btn btn--primary btn-hover" href="#contact" data-e="eGgxd2hxaHloa3dDdmVybQ==" title="Ask Lucas Thevenet for his CV by email">
+                              <em></em>
+                              <span class="btn__label">
+                                Ask for my CV
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+              
+                        <div class="col-12 col-md-4 col-xxl-3 grid-item about-summary section-column--compact">
+                          <div class="about-summary__item reveal-up">
+                            <h6>Lucas Thevenet</h6>
+                          </div>
+                          <div class="about-summary__item reveal-up">
+                            <h6>
+                              <a class="text-link"  href="#contact" data-t="NTMjNzQjNzwjOzkjOiM2Ni4=">Phone number</a>
+                            </h6>
+                          </div>
+                          <div class="about-summary__item reveal-up">
+                            <h6>
+                              <a class="text-link"  href="#contact" data-e="eGgxd2hxaHloa3dDdmVybQ==">Contact me by email</a>
+                            </h6>
+                          </div>
+                          <div class="about-summary__item reveal-up">
+                            <h6>
+                              <a class="text-link" href="https://www.google.com/maps/place/Dijon" target="_blank" rel="noopener noreferrer">Dijon (21), France</a>
+                            </h6>
+                          </div>
+                        </div>
+              
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-xl-2"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section - About - End -->
+
+      <!-- Section - Resume - Start -->
+      <section id="resume" class="page-section page-section--spaced resume">
+        <div class="page-section__wrap">
+          <div class="container-fluid p-0">
+            <div class="row g-0">
+              <div class="col-12 col-xl-2">
+                <div class="page-section__aside">
+                  <div class="section-block section-block--label">
+                    <span class="section-label icon-right reveal-up">
+                      <span class="section-label__text">Resume</span>
+                      <i class="ph ph-arrow-down-right"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <!-- Section Name End -->
+
+              <!-- Section Content Start -->
+              <div class="col-12 col-xl-8">
+                <div class="page-section__body">
+                  <div class="section-block section-block--title-wide">
+                    <div class="section-intro">
+                      <h2 class="split-reveal reveal-up">The digital<br>journey</h2>
+                    </div>
+                  </div>
+
+                  <!-- Content Block - School Path Start -->
+                  <div class="section-block section-block--spaced">
+                    <div class="section-subhead">
+                      <p class="section-kicker reveal-up">My education</p>
+                    </div>
+                    <div class="container-fluid p-0 timeline">
+                      <div class="timeline-divider reveal-up"></div>
+                      <div class="row g-0 timeline__item">
+                        <div class="col-12 col-md-4 col-lg-2">
+                          <p class="timeline__date text-relaxed reveal-up">2021 - 2024</p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <h4 class="timeline__title reveal-up">Baccalaureate General</h4>
+                          <p class="timeline__meta text-small reveal-up">
+                            <a class="inline-link" href="https://www.lasalle63.fr/legt" target="_blank" rel="noopener noreferrer">Godefroy de Bouillon</a> (Clermont-Fd)
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <p class="timeline__description text-relaxed reveal-up">Completion of my 3-year general baccalaureate at the Jean Baptiste de La Salle Campus</p>
+                        </div>
+                      </div>
+                      <div class="timeline-divider reveal-up"></div>
+                      <div class="row g-0 timeline__item">
+                        <div class="col-12 col-md-4 col-lg-2">
+                          <p class="timeline__date text-relaxed reveal-up">July 2024</p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <h4 class="timeline__title reveal-up">C Pool</h4>
+                          <p class="timeline__meta text-small reveal-up">
+                            <a class="inline-link" href="https://42lyon.fr" target="_blank" rel="noopener noreferrer">42 School</a> (Lyon)
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <p class="timeline__description text-relaxed reveal-up">Realization of the “Piscine” test at Ecole 42 Lyon. This enabled me to acquire rigor in terms of development, a good team spirit, as well as a good knowledge of the C language.</p>
+                        </div>
+                      </div>
+                      <div class="timeline-divider reveal-up"></div>
+                    </div>
+                    <div class="row g-0 timeline__item">
+                      <div class="col-12 col-md-4 col-lg-2">
+                        <p class="timeline__date text-relaxed reveal-up">2024 - 2026</p>
+                      </div>
+                      <div class="col-12 col-md-4 col-lg-5">
+                        <h4 class="timeline__title reveal-up">BTS SIO (SISR)</h4>
+                        <p class="timeline__meta text-small reveal-up">
+                          <a class="inline-link" href="https://www.lasalle63.fr/campus-1" target="_blank" rel="noopener noreferrer">Bansac</a> (Clermont-Fd)
+                        </p>
+                      </div>
+                      <div class="col-12 col-md-4 col-lg-5">
+                        <p class="timeline__description text-relaxed reveal-up">Start of a higher study course in computer science combining application and website development, network administration and cyber security.</p>
+                      </div>
+                    </div>
+                    <div class="timeline-divider reveal-up"></div>
+                    <div class="row g-0 timeline__item">
+                      <div class="col-12 col-md-4 col-lg-2">
+                        <p class="timeline__date text-relaxed reveal-up">2026 – 2027</p>
+                      </div>
+                      <div class="col-12 col-md-4 col-lg-5">
+                        <h4 class="timeline__title reveal-up">Licence IAC</h4>
+                        <p class="timeline__meta text-small reveal-up">
+                          <a class="inline-link" href="https://esjodijon.com/formations/licence-iac/" target="_blank" rel="noopener noreferrer">E.S. Saint Joseph</a> (Dijon)
+                        </p>
+                      </div>
+                      <div class="col-12 col-md-4 col-lg-5">
+                        <p class="timeline__description text-relaxed reveal-up">Pursuit of a higher education course in computer science with a view to specializing in cybersecurity within the IAC (Computer Science Analyst in cybersecurity) degree.</p>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  <!-- Content Block - My Education End -->
+
+                  <!-- Content Block - Work Experience Start -->
+                  <div class="section-block section-block--spaced">
+                    <div class="section-subhead">
+                      <p class="section-kicker reveal-up">Work experience</p>
+                    </div>
+                    <div class="container-fluid p-0 timeline">
+                      <div class="timeline-divider reveal-up"></div>
+                      <div class="row g-0 timeline__item">
+                        <div class="col-12 col-md-4 col-lg-2">
+                          <p class="timeline__date text-relaxed reveal-up">Sept. 2026 – present</p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <h4 class="timeline__title reveal-up">Apprenticeship</h4>
+                          <p class="timeline__meta text-small reveal-up">Ordiservices (Dijon)</p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <p class="timeline__description text-relaxed reveal-up">
+                            Systems &amp; network administrator apprentice at Ordiservices. I deploy and run the virtualisation platform — Proxmox VE hosts and Debian 13 virtual machines — along with containerised services managed with Docker and Portainer, Samba file shares, WebDAV access and a Caddy reverse proxy.
+                            <br><br>
+                            I also designed a redesign of the network segmented into VLANs, and I automate administration tasks with PowerShell and Bash scripts scheduled through cron and systemd.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container-fluid p-0 timeline">
+                      <div class="timeline-divider reveal-up"></div>
+                      <div class="row g-0 timeline__item">
+                        <div class="col-12 col-md-4 col-lg-2">
+                          <p class="timeline__date text-relaxed reveal-up">February 2021</p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <h4 class="timeline__title reveal-up">Internship</h4>
+                          <p class="timeline__meta text-small reveal-up">
+                            <a class="inline-link" href="https://www.gate.cnrs.fr/en/" target="_blank" rel="noopener noreferrer">CNRS GATE-LSE</a> (Ecully)
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <p class="timeline__description text-relaxed reveal-up">
+                            Realization of a company internship in one of the laboratories of the CNRS, more precisely the 'Groupe d'Analyse et de Théorie Economique' base in Ecully with for master of internship the Informatics engineer of the research institute. 
+                            <br><br>
+                            This allowed me to understand the importance of IT in science, but also the importance of behavioral sciences in society.</p>
+                        </div>
+                      </div>
+                      <div class="timeline-divider reveal-up"></div>
+                    </div>
+                    <div class="container-fluid p-0 timeline">
+                      <div class="row g-0 timeline__item">
+                        <div class="col-12 col-md-4 col-lg-2">
+                          <p class="timeline__date text-relaxed reveal-up">May-June 2025</p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <h4 class="timeline__title reveal-up">Internship</h4>
+                          <p class="timeline__meta text-small reveal-up">
+                            <a class="inline-link" href="https://www.smokloud.fr/" target="_blank" rel="noopener noreferrer">SMOKLOUD</a> (Lempdes)
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <p class="timeline__description text-relaxed reveal-up">
+                           Company internship at SmokLOUD, I worked on securing the entire network infrastructure of the physical store while simultaneously developing the front-end of the e-commerce site with integration to the POS system. 
+                            <br><br>
+                            This experience allowed me to enhance my skills in network security, including the implementation of DMZs and firewall configurations, as well as in full-stack web development. I also gained practical knowledge in integrating payment gateways and inventory management systems, ensuring a seamless connection between the online platform and in-store operations.                           
+                          </p>                            
+                        </div>
+                      </div>
+                      <div class="timeline-divider reveal-up"></div>
+                    </div>
+                    <div class="container-fluid p-0 timeline">
+                      <div class="row g-0 timeline__item">
+                        <div class="col-12 col-md-4 col-lg-2">
+                          <p class="timeline__date text-relaxed reveal-up">Jan. - Feb. 2026</p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <h4 class="timeline__title reveal-up">Internship</h4>
+                          <p class="timeline__meta text-small reveal-up">
+                            <a class="inline-link" href="https://www.apanimaux63.org/" target="_blank" rel="noopener noreferrer">APA63</a> (Gerzat)
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-5">
+                          <p class="timeline__description text-relaxed reveal-up">
+                            Company internship at APA 63, I was responsible for modernizing and securing parts of the organization’s IT infrastructure. I deployed a Home Assistant server under Docker to centralize building automation systems and improve operational monitoring.
+                            <br><br>
+                            During this internship, I upgraded the workstation fleet to Windows 11 with BitLocker encryption, implemented a centralized backup strategy using Duplicati connected to a QNAP NAS, and reorganized the network rack to improve structure and reliability. This experience strengthened my skills in infrastructure management, system security, and business continuity.
+                          </p>                            
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <!-- Content Block - Work Experience End -->
+
+                  <div class="section-block section-block--grid section-block--spaced">
+                    <div class="section-subhead section-subhead--grid">
+                      <p class="section-kicker reveal-up">My favourite tools</p>
+                    </div>
+                    <div class="tool-grid d-flex justify-content-start flex-wrap">
+                      <div class="tool-grid__item d-flex grid-item reveal-grid-4">
+                        <div class="tool-card">
+                          <a target="_blank" rel="noopener noreferrer" href="https://vscodium.com/">
+                            <img class="tool-card__icon reveal-up" src="img/icons/icon-vscodium.svg" alt="Icon VsCodium">
+                            <h6 class="tool-card__label reveal-up">VS Codium</h6>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="tool-grid__item d-flex grid-item reveal-grid-4">
+                        <div class="tool-card">
+                          <a target="_blank" rel="noopener noreferrer" href="https://www.vim.org/">
+                            <img class="tool-card__icon reveal-up" src="img/icons/icon-vim.svg" alt="Tools Vim">
+                            <h6 class="tool-card__label reveal-up">Vim</h6>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="tool-grid__item d-flex grid-item reveal-grid-4">
+                        <div class="tool-card">
+                          <a target="_blank" rel="noopener noreferrer" href="https://ohmyz.sh/">
+                            <img class="tool-card__icon reveal-up" src="img/icons/icon-ohmyzsh.svg" alt="Tools OhMyZSH">
+                            <h6 class="tool-card__label reveal-up">OhMyZSH</h6>
+                            </a>
+                        </div>
+                      </div>
+                      <div class="tool-grid__item d-flex grid-item reveal-grid-4">
+                        <div class="tool-card">
+                          <a target="_blank" rel="noopener noreferrer" href="https://getpaint.net/">
+                            <img class="tool-card__icon reveal-up" src="img/icons/icon-paint-net.svg" alt="Tools Paint.net">
+                            <h6 class="tool-card__label reveal-up">Paint.net</h6>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="tool-grid__item d-flex grid-item reveal-grid-4">
+                        <div class="tool-card">
+                          <a target="_blank" rel="noopener noreferrer" href="https://www.mozilla.org/fr/firefox/new/">
+                            <img class="tool-card__icon reveal-up" src="img/icons/icon-firefox.svg" alt="Tools Firefox">
+                            <h6 class="tool-card__label reveal-up">Firefox</h6>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="tool-grid__item d-flex grid-item reveal-grid-4">
+                        <div class="tool-card">
+                          <a target="_blank" rel="noopener noreferrer" href="https://github.com/">
+                            <img class="tool-card__icon reveal-up" src="img/icons/icon-github.svg" alt="Tools Github">
+                            <h6 class="tool-card__label reveal-up">Github</h6>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="tool-grid__item d-flex grid-item reveal-grid-4">
+                        <div class="tool-card">
+                          <a target="_blank" rel="noopener noreferrer" href="https://logseq.com/">
+                            <img class="tool-card__icon reveal-up" src="img/icons/icon-logseq.svg" alt="Tools logseq">
+                            <h6 class="tool-card__label reveal-up">Logseq</h6>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-xl-2"></div>
+            </div>
+          </div>
+          <div class="container-fluid p-0">
+            <div class="row g-0">
+              <div class="col-12">
+                <div class="section-block section-block--flush section-block--title-wide">
+                  <div class="marquee marquee--animated">
+                    <div class="marquee__track">
+                      <div class="marquee-card marquee-card--plain">
+                        <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/lucas-thevenet-a44a56333"><p class="marquee-card__text">Follow me</p></a>
+                        <div class="marquee-card__icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.3 93.1" fill="currentColor">
+                            <g>
+                              <rect x="45.7" class="st0" width="1" height="93.1"/>
+                              <rect x="45.7" y="0" transform="matrix(0.8412 -0.5407 0.5407 0.8412 -17.8476 32.3497)" class="st0" width="1" height="93.1"/>
+                              <rect x="45.7" y="0" transform="matrix(0.4155 -0.9096 0.9096 0.4155 -15.3764 69.2119)" class="st0" width="1" height="93.1"/>
+                              <rect x="-0.4" y="46.1" transform="matrix(0.9898 -0.1425 0.1425 0.9898 -6.1646 7.0506)" class="st0" width="93.1" height="1"/>
+                              <rect x="-0.4" y="46.1" transform="matrix(0.7556 -0.655 0.655 0.7556 -19.2157 41.618)" class="st0" width="93.1" height="1"/>
+                              <rect x="-0.4" y="46.1" transform="matrix(0.2812 -0.9597 0.9597 0.2812 -11.5032 77.7858)" class="st0" width="93.1" height="1"/>
+                              <rect x="45.7" y="0" transform="matrix(0.9595 -0.2817 0.2817 0.9595 -11.2479 14.8866)" class="st0" width="1" height="93.1"/>
+                              <rect x="45.7" y="0" transform="matrix(0.6549 -0.7557 0.7557 0.6549 -19.2631 50.9572)" class="st0" width="1" height="93.1"/>
+                              <rect x="45.7" y="0" transform="matrix(0.1423 -0.9898 0.9898 0.1423 -6.4999 85.629)" class="st0" width="1" height="93.1"/>
+                              <rect x="-0.4" y="46.1" transform="matrix(0.9097 -0.4153 0.4153 0.9097 -15.1716 23.381)" class="st0" width="93.1" height="1"/>
+                              <rect x="-0.4" y="46.1" transform="matrix(0.5411 -0.8409 0.8409 0.5411 -17.9774 60.1901)" class="st0" width="93.1" height="1"/>
+                            </g>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="marquee-card marquee-card--plain">
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/miinja"><p class="marquee-card__text">Star me</p></a>
+                        <div class="marquee-card__icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.3 93.1" fill="currentColor">
+                            <g>
+                              <rect x="45.7" class="st0" width="1" height="93.1"/>
+                              <rect x="45.7" y="0" transform="matrix(0.8412 -0.5407 0.5407 0.8412 -17.8476 32.3497)" class="st0" width="1" height="93.1"/>
+                              <rect x="45.7" y="0" transform="matrix(0.4155 -0.9096 0.9096 0.4155 -15.3764 69.2119)" class="st0" width="1" height="93.1"/>
+                              <rect x="-0.4" y="46.1" transform="matrix(0.9898 -0.1425 0.1425 0.9898 -6.1646 7.0506)" class="st0" width="93.1" height="1"/>
+                              <rect x="-0.4" y="46.1" transform="matrix(0.7556 -0.655 0.655 0.7556 -19.2157 41.618)" class="st0" width="93.1" height="1"/>
+                              <rect x="-0.4" y="46.1" transform="matrix(0.2812 -0.9597 0.9597 0.2812 -11.5032 77.7858)" class="st0" width="93.1" height="1"/>
+                              <rect x="45.7" y="0" transform="matrix(0.9595 -0.2817 0.2817 0.9595 -11.2479 14.8866)" class="st0" width="1" height="93.1"/>
+                              <rect x="45.7" y="0" transform="matrix(0.6549 -0.7557 0.7557 0.6549 -19.2631 50.9572)" class="st0" width="1" height="93.1"/>
+                              <rect x="45.7" y="0" transform="matrix(0.1423 -0.9898 0.9898 0.1423 -6.4999 85.629)" class="st0" width="1" height="93.1"/>
+                              <rect x="-0.4" y="46.1" transform="matrix(0.9097 -0.4153 0.4153 0.9097 -15.1716 23.381)" class="st0" width="93.1" height="1"/>
+                              <rect x="-0.4" y="46.1" transform="matrix(0.5411 -0.8409 0.8409 0.5411 -17.9774 60.1901)" class="st0" width="93.1" height="1"/>
+                            </g>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="marquee-card marquee-card--plain">
+                        <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/lucas-thevenet-a44a56333"><p class="marquee-card__text">Follow me</p></a>
+                        <div class="marquee-card__icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.3 93.1" fill="currentColor">
+                            <g>
+                              <rect x="45.7" class="st0" width="1" height="93.1"/>
+                              <rect x="45.7" y="0" transform="matrix(0.8412 -0.5407 0.5407 0.8412 -17.8476 32.3497)" class="st0" width="1" height="93.1"/>
+                              <rect x="45.7" y="0" transform="matrix(0.4155 -0.9096 0.9096 0.4155 -15.3764 69.2119)" class="st0" width="1" height="93.1"/>
+                              <rect x="-0.4" y="46.1" transform="matrix(0.9898 -0.1425 0.1425 0.9898 -6.1646 7.0506)" class="st0" width="93.1" height="1"/>
+                              <rect x="-0.4" y="46.1" transform="matrix(0.7556 -0.655 0.655 0.7556 -19.2157 41.618)" class="st0" width="93.1" height="1"/>
+                              <rect x="-0.4" y="46.1" transform="matrix(0.2812 -0.9597 0.9597 0.2812 -11.5032 77.7858)" class="st0" width="93.1" height="1"/>
+                              <rect x="45.7" y="0" transform="matrix(0.9595 -0.2817 0.2817 0.9595 -11.2479 14.8866)" class="st0" width="1" height="93.1"/>
+                              <rect x="45.7" y="0" transform="matrix(0.6549 -0.7557 0.7557 0.6549 -19.2631 50.9572)" class="st0" width="1" height="93.1"/>
+                              <rect x="45.7" y="0" transform="matrix(0.1423 -0.9898 0.9898 0.1423 -6.4999 85.629)" class="st0" width="1" height="93.1"/>
+                              <rect x="-0.4" y="46.1" transform="matrix(0.9097 -0.4153 0.4153 0.9097 -15.1716 23.381)" class="st0" width="93.1" height="1"/>
+                              <rect x="-0.4" y="46.1" transform="matrix(0.5411 -0.8409 0.8409 0.5411 -17.9774 60.1901)" class="st0" width="93.1" height="1"/>
+                            </g>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="marquee-card marquee-card--plain">
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/miinja"><p class="marquee-card__text">Star me</p></a>
+                        <div class="marquee-card__icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.3 93.1" fill="currentColor">
+                            <g>
+                              <rect x="45.7" class="st0" width="1" height="93.1"/>
+                              <rect x="45.7" y="0" transform="matrix(0.8412 -0.5407 0.5407 0.8412 -17.8476 32.3497)" class="st0" width="1" height="93.1"/>
+                              <rect x="45.7" y="0" transform="matrix(0.4155 -0.9096 0.9096 0.4155 -15.3764 69.2119)" class="st0" width="1" height="93.1"/>
+                              <rect x="-0.4" y="46.1" transform="matrix(0.9898 -0.1425 0.1425 0.9898 -6.1646 7.0506)" class="st0" width="93.1" height="1"/>
+                              <rect x="-0.4" y="46.1" transform="matrix(0.7556 -0.655 0.655 0.7556 -19.2157 41.618)" class="st0" width="93.1" height="1"/>
+                              <rect x="-0.4" y="46.1" transform="matrix(0.2812 -0.9597 0.9597 0.2812 -11.5032 77.7858)" class="st0" width="93.1" height="1"/>
+                              <rect x="45.7" y="0" transform="matrix(0.9595 -0.2817 0.2817 0.9595 -11.2479 14.8866)" class="st0" width="1" height="93.1"/>
+                              <rect x="45.7" y="0" transform="matrix(0.6549 -0.7557 0.7557 0.6549 -19.2631 50.9572)" class="st0" width="1" height="93.1"/>
+                              <rect x="45.7" y="0" transform="matrix(0.1423 -0.9898 0.9898 0.1423 -6.4999 85.629)" class="st0" width="1" height="93.1"/>
+                              <rect x="-0.4" y="46.1" transform="matrix(0.9097 -0.4153 0.4153 0.9097 -15.1716 23.381)" class="st0" width="93.1" height="1"/>
+                              <rect x="-0.4" y="46.1" transform="matrix(0.5411 -0.8409 0.8409 0.5411 -17.9774 60.1901)" class="st0" width="93.1" height="1"/>
+                            </g>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row g-0 justify-content-center">
+              <div class="col-12 col-xl-8">
+                <div class="section-block">
+                  <div class="section-subhead">
+                    <p class="section-kicker reveal-up">Social media</p>
+                  </div>
+                  <ul class="social-list d-flex flex-column">
+                    <li class="social-list__item">
+                      <div class="social-list__divider reveal-up"></div>
+                      <a class="social-list__link d-flex align-items-center justify-content-between" href="https://github.com/miinja" target="_blank" rel="noopener noreferrer">
+                        <h4 class="reveal-up">Github</h4>
+                        <div class="social-list__icon d-flex reveal-up">
+                          <i class="ph ph-arrow-up-right"></i>
+                        </div>
+                      </a>
+                      <div class="social-list__divider reveal-up"></div>
+                    </li>
+                    <li class="social-list__item">
+                      <a class="social-list__link d-flex align-items-center justify-content-between" href="https://linkedin.com/in/lucas-thevenet-a44a56333" target="_blank" rel="noopener noreferrer">
+                        <h4 class="reveal-up">Linkedin</h4>
+                        <div class="social-list__icon d-flex reveal-up">
+                          <i class="ph ph-arrow-up-right"></i>
+                        </div>
+                      </a>
+                      <div class="social-list__divider reveal-up"></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- Section - Resume - End -->
+
+      <!-- Section - Contact - Start -->
+      <section id="contact" class="page-section contact page-section--spaced page-section--flush-bottom">
+        <div class="page-section__wrap">
+          <div class="container-fluid p-0">
+            <div class="row g-0">
+              <div class="col-12 col-xl-2">
+                <div class="page-section__aside">
+                  <div class="section-block section-block--label">
+                    <span class="section-label icon-right reveal-up">
+                      <span class="section-label__text">Contact</span>
+                      <i class="ph ph-arrow-down-right"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-xl-8">
+                <div class="page-section__body">
+                  <div class="section-block section-block--title-form">
+                    <div class="section-intro">
+                      <h2 class="split-reveal reveal-up">Just Ask Me!</h2>
+                      <p class="section-intro__text text-measure text-relaxed reveal-up">Want to know more about me, tell me about your project or
+                        <a class="strike" target="_blank" rel="noopener noreferrer" href="https://nohello.net/en/">just say hello</a> ? Drop me a line and I'll get back as soon as possible.</p>
+                    </div>
+                  </div>
+                  <div class="section-block section-block--grid section-block--tight">
+                    <div class="contact-panel">
+                      <!-- Contact par email : l'adresse n'est jamais présente en clair dans le code,
+                           elle est reconstituée par js/contact.js uniquement au clic. -->
+                      <div class="reveal-up">
+                        <a class="btn btn--primary btn-hover" href="#contact" data-e="eGgxd2hxaHloa3dDdmVybQ==">
+                          <em></em>
+                          <span class="btn__label">Send me an email</span>
+                        </a>
+                        <p class="form__note">Click the button to open your email app. My address is never displayed in clear text to keep bots away.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="section-block section-block--grid">
+                    <div class="container-fluid p-0 contact-details">
+                      <div class="row g-0">
+                        <div class="col-12 col-md-6 col-lg-3 contact-details__item grid-item">
+                          <p class="contact-details__label section-kicker reveal-up">Location</p>
+                          <p class="contact-details__value text-small text-relaxed">
+                            <a class="inline-link--comfortable reveal-up" href="https://www.google.com/maps/place/Dijon" target="_blank" rel="noopener noreferrer">Dijon, France<br>21000</a>
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 contact-details__item grid-item">
+                          <p class="contact-details__label section-kicker reveal-up">Phone</p>
+                          <p class="contact-details__value text-small text-relaxed">
+                            <a class="inline-link--comfortable reveal-up"  href="#contact" data-t="NTMjNzQjNzwjOzkjOiM2Ni4=">Phone number</a>
+                          </p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 contact-details__item grid-item">
+                          <p class="contact-details__label section-kicker reveal-up">Email</p>
+                          <p class="contact-details__value text-small text-relaxed">
+                            <a class="inline-link--comfortable reveal-up"  href="#contact" data-e="eGgxd2hxaHloa3dDdmVybQ==">Contact me by email</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-xl-2"></div>
+            </div>
+          </div>
+          <div class="site-footer site-footer--marquee">
+            <div class="container-fluid p-0">
+              <div class="row g-0">
+                <div class="col-12">
+                  <div class="section-block section-block--flush">
+                    <div class="marquee marquee--animated">
+                      <div class="marquee__track">
+                        <div class="marquee-card marquee-card--plain">
+                          <a class="marquee-card__text"  href="#contact" data-e="eGgxd2hxaHloa3dDdmVybQ==">Got an idea?</a>
+                          <div class="marquee-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.3 93.1" fill="currentColor">
+                              <g>
+                                <rect x="45.7" class="st0" width="1" height="93.1"/>
+                                <rect x="45.7" y="0" transform="matrix(0.8412 -0.5407 0.5407 0.8412 -17.8476 32.3497)" class="st0" width="1" height="93.1"/>
+                                <rect x="45.7" y="0" transform="matrix(0.4155 -0.9096 0.9096 0.4155 -15.3764 69.2119)" class="st0" width="1" height="93.1"/>
+                                <rect x="-0.4" y="46.1" transform="matrix(0.9898 -0.1425 0.1425 0.9898 -6.1646 7.0506)" class="st0" width="93.1" height="1"/>
+                                <rect x="-0.4" y="46.1" transform="matrix(0.7556 -0.655 0.655 0.7556 -19.2157 41.618)" class="st0" width="93.1" height="1"/>
+                                <rect x="-0.4" y="46.1" transform="matrix(0.2812 -0.9597 0.9597 0.2812 -11.5032 77.7858)" class="st0" width="93.1" height="1"/>
+                                <rect x="45.7" y="0" transform="matrix(0.9595 -0.2817 0.2817 0.9595 -11.2479 14.8866)" class="st0" width="1" height="93.1"/>
+                                <rect x="45.7" y="0" transform="matrix(0.6549 -0.7557 0.7557 0.6549 -19.2631 50.9572)" class="st0" width="1" height="93.1"/>
+                                <rect x="45.7" y="0" transform="matrix(0.1423 -0.9898 0.9898 0.1423 -6.4999 85.629)" class="st0" width="1" height="93.1"/>
+                                <rect x="-0.4" y="46.1" transform="matrix(0.9097 -0.4153 0.4153 0.9097 -15.1716 23.381)" class="st0" width="93.1" height="1"/>
+                                <rect x="-0.4" y="46.1" transform="matrix(0.5411 -0.8409 0.8409 0.5411 -17.9774 60.1901)" class="st0" width="93.1" height="1"/>
+                              </g>
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="marquee-card marquee-card--plain">
+                          <a class="marquee-card__text"  href="#contact" data-e="eGgxd2hxaHloa3dDdmVybQ==">Tell me!</a>
+                          <div class="marquee-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.3 93.1" fill="currentColor">
+                              <g>
+                                <rect x="45.7" class="st0" width="1" height="93.1"/>
+                                <rect x="45.7" y="0" transform="matrix(0.8412 -0.5407 0.5407 0.8412 -17.8476 32.3497)" class="st0" width="1" height="93.1"/>
+                                <rect x="45.7" y="0" transform="matrix(0.4155 -0.9096 0.9096 0.4155 -15.3764 69.2119)" class="st0" width="1" height="93.1"/>
+                                <rect x="-0.4" y="46.1" transform="matrix(0.9898 -0.1425 0.1425 0.9898 -6.1646 7.0506)" class="st0" width="93.1" height="1"/>
+                                <rect x="-0.4" y="46.1" transform="matrix(0.7556 -0.655 0.655 0.7556 -19.2157 41.618)" class="st0" width="93.1" height="1"/>
+                                <rect x="-0.4" y="46.1" transform="matrix(0.2812 -0.9597 0.9597 0.2812 -11.5032 77.7858)" class="st0" width="93.1" height="1"/>
+                                <rect x="45.7" y="0" transform="matrix(0.9595 -0.2817 0.2817 0.9595 -11.2479 14.8866)" class="st0" width="1" height="93.1"/>
+                                <rect x="45.7" y="0" transform="matrix(0.6549 -0.7557 0.7557 0.6549 -19.2631 50.9572)" class="st0" width="1" height="93.1"/>
+                                <rect x="45.7" y="0" transform="matrix(0.1423 -0.9898 0.9898 0.1423 -6.4999 85.629)" class="st0" width="1" height="93.1"/>
+                                <rect x="-0.4" y="46.1" transform="matrix(0.9097 -0.4153 0.4153 0.9097 -15.1716 23.381)" class="st0" width="93.1" height="1"/>
+                                <rect x="-0.4" y="46.1" transform="matrix(0.5411 -0.8409 0.8409 0.5411 -17.9774 60.1901)" class="st0" width="93.1" height="1"/>
+                              </g>
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="marquee-card marquee-card--plain">
+                          <a class="marquee-card__text"  href="#contact" data-e="eGgxd2hxaHloa3dDdmVybQ==">Got an idea?</a>
+                          <div class="marquee-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.3 93.1" fill="currentColor">
+                              <g>
+                                <rect x="45.7" class="st0" width="1" height="93.1"/>
+                                <rect x="45.7" y="0" transform="matrix(0.8412 -0.5407 0.5407 0.8412 -17.8476 32.3497)" class="st0" width="1" height="93.1"/>
+                                <rect x="45.7" y="0" transform="matrix(0.4155 -0.9096 0.9096 0.4155 -15.3764 69.2119)" class="st0" width="1" height="93.1"/>
+                                <rect x="-0.4" y="46.1" transform="matrix(0.9898 -0.1425 0.1425 0.9898 -6.1646 7.0506)" class="st0" width="93.1" height="1"/>
+                                <rect x="-0.4" y="46.1" transform="matrix(0.7556 -0.655 0.655 0.7556 -19.2157 41.618)" class="st0" width="93.1" height="1"/>
+                                <rect x="-0.4" y="46.1" transform="matrix(0.2812 -0.9597 0.9597 0.2812 -11.5032 77.7858)" class="st0" width="93.1" height="1"/>
+                                <rect x="45.7" y="0" transform="matrix(0.9595 -0.2817 0.2817 0.9595 -11.2479 14.8866)" class="st0" width="1" height="93.1"/>
+                                <rect x="45.7" y="0" transform="matrix(0.6549 -0.7557 0.7557 0.6549 -19.2631 50.9572)" class="st0" width="1" height="93.1"/>
+                                <rect x="45.7" y="0" transform="matrix(0.1423 -0.9898 0.9898 0.1423 -6.4999 85.629)" class="st0" width="1" height="93.1"/>
+                                <rect x="-0.4" y="46.1" transform="matrix(0.9097 -0.4153 0.4153 0.9097 -15.1716 23.381)" class="st0" width="93.1" height="1"/>
+                                <rect x="-0.4" y="46.1" transform="matrix(0.5411 -0.8409 0.8409 0.5411 -17.9774 60.1901)" class="st0" width="93.1" height="1"/>
+                              </g>
+                            </svg>
+                          </div>
+                        </div>
+                        <div class="marquee-card marquee-card--plain">
+                          <a class="marquee-card__text"  href="#contact" data-e="eGgxd2hxaHloa3dDdmVybQ==">Tell me!</a>
+                          <div class="marquee-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.3 93.1" fill="currentColor">
+                              <g>
+                                <rect x="45.7" class="st0" width="1" height="93.1"/>
+                                <rect x="45.7" y="0" transform="matrix(0.8412 -0.5407 0.5407 0.8412 -17.8476 32.3497)" class="st0" width="1" height="93.1"/>
+                                <rect x="45.7" y="0" transform="matrix(0.4155 -0.9096 0.9096 0.4155 -15.3764 69.2119)" class="st0" width="1" height="93.1"/>
+                                <rect x="-0.4" y="46.1" transform="matrix(0.9898 -0.1425 0.1425 0.9898 -6.1646 7.0506)" class="st0" width="93.1" height="1"/>
+                                <rect x="-0.4" y="46.1" transform="matrix(0.7556 -0.655 0.655 0.7556 -19.2157 41.618)" class="st0" width="93.1" height="1"/>
+                                <rect x="-0.4" y="46.1" transform="matrix(0.2812 -0.9597 0.9597 0.2812 -11.5032 77.7858)" class="st0" width="93.1" height="1"/>
+                                <rect x="45.7" y="0" transform="matrix(0.9595 -0.2817 0.2817 0.9595 -11.2479 14.8866)" class="st0" width="1" height="93.1"/>
+                                <rect x="45.7" y="0" transform="matrix(0.6549 -0.7557 0.7557 0.6549 -19.2631 50.9572)" class="st0" width="1" height="93.1"/>
+                                <rect x="45.7" y="0" transform="matrix(0.1423 -0.9898 0.9898 0.1423 -6.4999 85.629)" class="st0" width="1" height="93.1"/>
+                                <rect x="-0.4" y="46.1" transform="matrix(0.9097 -0.4153 0.4153 0.9097 -15.1716 23.381)" class="st0" width="93.1" height="1"/>
+                                <rect x="-0.4" y="46.1" transform="matrix(0.5411 -0.8409 0.8409 0.5411 -17.9774 60.1901)" class="st0" width="93.1" height="1"/>
+                              </g>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section - Contact - End -->
+
+    </main>
+
+    <div class="page-backdrop page-backdrop--base">
+      <div class="page-backdrop__layer--secondary reveal-grid-2">
+        <img class="theme-image" src="img/ambiance/background.webp" alt="" aria-hidden="true" width="1440" height="980" decoding="async">
+      </div>
+      <div class="page-backdrop__layer--primary reveal-grid-2">
+        <img class="theme-image" src="img/ambiance/background.webp" alt="" aria-hidden="true" width="1440" height="980" decoding="async">
+      </div>
+    </div>
+
+    <!-- Page Content End -->
+
+    <div class="site-header-spacer"></div>
+    <a href="#0" id="to-top" class="btn back-to-top slide-up" aria-label="Back to top">
+      <i class="ph ph-arrow-up"></i>
+    </a>
+
+    <!-- Start Mobile Navbar -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <div class="pswp__counter"></div>
+            <button type="button" class="pswp__button pswp__button--close link-s" title="Close (Esc)"></button>
+            <button type="button" class="pswp__button pswp__button--share link-s" title="Share"></button>
+            <button type="button" class="pswp__button pswp__button--fs link-s" title="Toggle fullscreen"></button>
+            <button type="button" class="pswp__button pswp__button--zoom link-s" title="Zoom in/out"></button>
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+              <div class="pswp__share-tooltip"></div>
+            </div>
+            <button type="button" class="pswp__button pswp__button--arrow--left link-s" title="Previous (arrow left)"></button>
+            <button type="button" class="pswp__button pswp__button--arrow--right link-s" title="Next (arrow right)"></button>
+            <div class="pswp__caption">
+              <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Mobile Navbar -->
+
+    <!-- Scripts : voir <head> (defer) -->
+    
+  </body>
+
+</html>
