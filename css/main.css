@@ -3966,13 +3966,13 @@ a.inline-link {
   z-index: 1;
 }
 .project-card .project-card__media {
-  margin: 1rem 1rem 0;
+  margin: 1.2rem 1.2rem 0;
   border-radius: calc(var(--_card-radius) - 1rem);
 }
 .project-card__title {
   margin: 0;
-  padding: 1.6rem 2rem 2rem;
-  font-size: clamp(1.8rem, 1.6rem + 0.4vw, 2.2rem);
+  padding: 2rem 2.4rem 2.6rem;
+  font-size: clamp(2rem, 1.7rem + 0.6vw, 2.6rem);
   line-height: 1.3;
   letter-spacing: -0.01em;
 }
@@ -3991,23 +3991,41 @@ a.inline-link {
   }
 }
 
-/* Logos d'entreprise et bannière (Ordiservices) */
+/* Logos d'entreprise et bannière (Ordiservices) : même cadre et même taille pour tous */
 .timeline__company-media {
+  aspect-ratio: 3 / 1;
   border-radius: var(--_card-radius);
   overflow: hidden;
 }
+.timeline__company-media img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: auto;
+  object-fit: contain;
+}
 .timeline__company-media.timeline__company-media--banner {
-  float: none;
-  width: min(100%, 72rem);
-  margin: 2.4rem 0 2.4rem;
   padding: 0;
-  border: 1px solid var(--stroke-elements);
-  background-color: transparent;
-  transform: none;
+  background-color: #0b0b1e;
 }
 .timeline__company-media--banner img {
-  aspect-ratio: 3 / 1;
   object-fit: cover;
+}
+/* ------------------------------------------------*/
+/* Sélecteur de langue : pastille lisible */
+.site-nav__lang {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 3.4rem;
+  padding: 0.6rem 0.9rem;
+  border: 1px solid var(--stroke-elements);
+  border-radius: 10rem;
+  font-size: 1.4rem;
+  color: var(--t-bright);
+}
+.site-nav__link--lang:hover .site-nav__lang,
+.site-nav__link--lang:focus-visible .site-nav__lang {
+  border-color: var(--t-bright);
 }
 /* ------------------------------------------------*/
 /* Typographie & cards - refonte End               */
