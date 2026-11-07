@@ -1,0 +1,35 @@
+# ─────────────────────────────────────────────
+# .gitignore — thevenet.eu (site statique Netlify)
+# ─────────────────────────────────────────────
+
+# Secrets et configuration privée (ne jamais versionner)
+inc/config.php
+.env
+.env.*
+*.key
+*.pem
+*.p12
+secrets/
+
+# Données générées par l'ancien formulaire PHP
+storage/*
+!storage/index.html
+
+# Netlify CLI (dossier local, contient l'ID du site)
+.netlify/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Brouillons, sauvegardes et journaux
+*.bak
+*.tmp
+*.log
