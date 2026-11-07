@@ -26,3 +26,6 @@ desktop.ini
 *.bak
 *.tmp
 *.log
+
+# Lanceur local (non publié)
+ouvrir-en-local.bat
