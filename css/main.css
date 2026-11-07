@@ -3950,17 +3950,14 @@ a.inline-link {
   font-variant-numeric: tabular-nums;
 }
 
-/* Cards projets : cadre arrondi autour de l'image et du titre */
+/* Cards projets : fond discret arrondi (sans bordure) autour de l'image et du titre */
 .project-card::before {
   content: "";
   position: absolute;
   inset: 0 var(--_card-inset);
-  border: 1px solid var(--stroke-elements);
-  border-color: color-mix(in srgb, var(--t-medium) 45%, transparent);
   border-radius: var(--_card-radius);
-  background-color: var(--base);
-  transition: border-color var(--_animspeed-medium) var(--_animbezier),
-    transform var(--_animspeed-medium) var(--_animbezier);
+  background-color: color-mix(in srgb, var(--t-medium) 6%, transparent);
+  transition: background-color var(--_animspeed-medium) var(--_animbezier);
 }
 .project-card > * {
   position: relative;
@@ -3978,7 +3975,7 @@ a.inline-link {
   letter-spacing: -0.01em;
 }
 .no-touch .project-card:hover::before {
-  border-color: var(--t-bright);
+  background-color: color-mix(in srgb, var(--t-medium) 11%, transparent);
 }
 @media only screen and (min-width: 768px) {
   :root {
